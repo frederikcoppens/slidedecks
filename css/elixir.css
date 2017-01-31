@@ -1,0 +1,96 @@
+
+:root {
+  --elixir-blue: rgb(0, 84, 114);
+  --elixir-blue-dim: rgba(0, 84, 114, 0.7);
+  --elixir-orange: rgb(244, 125, 32);
+  --elixir-orange-dim: rgba(244, 125, 32, 0.7);
+  --elixir-grey: rgb(77, 72, 72);
+  --elixir-green: rgb(190, 191, 50);
+}
+
+#elixir_logo{
+      position: fixed;
+      bottom: 2%;
+      left: 2%;
+      height : 100px;
+}
+
+.reveal {
+  font-family: "Corbel", Helvetica, sans-serif;
+  color: var(--elixir-grey);
+}
+
+.reveal h1 {
+#  background-image: url("../images/logos/ELIXIR_background.png");
+#  background-position: left top;
+#  background-size: 100%;
+}
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  color: var(--elixir-blue);
+}
+
+.reveal a {
+  color: var(--elixir-orange);
+}
+
+.reveal a:hover {
+  color: var(--elixir-orange-dim);
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+  border-right-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+  border-left-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+  border-top-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-left.enabled:hover {
+  border-right-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-right.enabled:hover {
+  border-left-color: var(--elixir-blue-dim); }
+
+.reveal .controls .navigate-up.enabled:hover {
+  border-bottom-color: var(--elixir-blue-dim); }
+
+.reveal .controls .navigate-down.enabled:hover {
+  border-top-color: var(--elixir-blue-dim); }
+
+.reveal .progress span {
+  background: var(--elixir-orange);
+}
+
+#left {
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+#right {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:40%;
+}
