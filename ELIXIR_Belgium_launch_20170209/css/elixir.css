@@ -111,3 +111,5 @@ background:url("../images/logos/ELIXIR_background.png");
 background-position:center;
 background-size: 100%;
 }
+
+.reveal section img { background:none; border:none; box-shadow:none; }
