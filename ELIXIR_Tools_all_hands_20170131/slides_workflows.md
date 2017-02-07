@@ -221,6 +221,6 @@ SnakeMake is using the Conda packages - and is more used than CWL in Europe.
   * Lower barrier to publish workflows
   * Make them citable (DOIs etc..)
   * Build a system to acknowledge people who publish workflows
-* Strenghten myexperiments.org
-* Relation between bio.tools and myexperiments.org
-* Galaxy is considering an easy submission of workflows to F1000 (myexperiments.org already supported)
+* Strenghten myexperiment.org
+* Relation between bio.tools and myexperiment.org
+* Galaxy is considering an easy submission of workflows to F1000 (myexperiment.org already supported)
