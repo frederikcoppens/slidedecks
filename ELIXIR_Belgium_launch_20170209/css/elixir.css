@@ -88,6 +88,13 @@
   z-index:-10;
 }
 
+#right60 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:60%;
+}
+
 #right70 {
   float: right;
   text-align: left;
