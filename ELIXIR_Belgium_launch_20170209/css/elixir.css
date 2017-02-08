@@ -81,20 +81,129 @@
   background: var(--elixir-orange);
 }
 
-#left {
+#left30 {
+  text-align: left;
+  float: left;
+  width:30%;
+  z-index:-10;
+}
+
+#right70 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:70%;
+}
+
+#left40 {
   text-align: left;
   float: left;
   width:40%;
   z-index:-10;
 }
 
-#right {
+#right40 {
   float: right;
   text-align: left;
   z-index:-10;
   width:40%;
 }
 
+#left60 {
+  text-align: left;
+  vertical-align: center;
+  float: left;
+  width:60%;
+  z-index:-10;
+}
+
+#left70 {
+  text-align: left;
+  vertical-align: center;
+  float: left;
+  width:70%;
+  z-index:-10;
+}
+
+#right30 {
+  float: right;
+  vertical-align: center;
+  text-align: left;
+  z-index:-10;
+  width:30%;
+}
+
+#left80 {
+  text-align: left;
+  float: left;
+  width:80%;
+  z-index:-10;
+}
+
+#center100 {
+  text-align: center;
+  width:100%;
+  float: left;
+}
+
+#right20 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:20%;
+}
+
+#left30center {
+  text-align: center;
+  float: left;
+  width:30%;
+  z-index:-10;
+}
+
+#left40center {
+  text-align: center;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+#left50center {
+  text-align: center;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#left60center {
+  text-align: center;
+  float: left;
+  width:60%;
+  z-index:-10;
+}
+
+#role_text {
+  text-align: center;
+  font-weight:  bold;
+  font-size:  70%;
+  z-index:-10;
+}
+
+
+#service_text {
+  text-align: left;
+  font-weight:  bold;
+  font-size:  100%;
+  z-index:-10;
+  color: var(--elixir-orange);
+}
+
+.reveal blockquote {
+  color: var(--elixir-orange);
+  width: 100%;
+  margin: 30px;
+  border-color: var(--elixir-orange);
+
+}
 
 .reveal .controls {
   display: none;
