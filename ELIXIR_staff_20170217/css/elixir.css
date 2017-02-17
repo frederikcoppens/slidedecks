@@ -1,0 +1,235 @@
+
+:root {
+  --elixir-blue: rgb(0, 84, 114);
+  --elixir-blue-dim: rgba(0, 84, 114, 0.7);
+  --elixir-orange: rgb(244, 125, 32);
+  --elixir-orange-dim: rgba(244, 125, 32, 0.7);
+  --elixir-grey: rgb(77, 72, 72);
+  --elixir-green: rgb(190, 191, 50);
+}
+
+#elixir_logo{
+      position: fixed;
+      bottom: 2%;
+      right: 2%;
+      height : 100px;
+}
+
+.reveal {
+  font-family: "Corbel", Helvetica, sans-serif;
+  color: var(--elixir-grey);
+}
+
+.reveal h1 {
+#  background-image: url("../images/logos/ELIXIR_background.png");
+#  background-position: left top;
+#  background-size: 100%;
+}
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  color: var(--elixir-blue);
+}
+
+.reveal a {
+  color: var(--elixir-orange);
+}
+
+.reveal a:hover {
+  color: var(--elixir-orange-dim);
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+  border-right-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+  border-left-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+  border-top-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-left.enabled:hover {
+  border-right-color: var(--elixir-blue); }
+
+.reveal .controls .navigate-right.enabled:hover {
+  border-left-color: var(--elixir-blue-dim); }
+
+.reveal .controls .navigate-up.enabled:hover {
+  border-bottom-color: var(--elixir-blue-dim); }
+
+.reveal .controls .navigate-down.enabled:hover {
+  border-top-color: var(--elixir-blue-dim); }
+
+.reveal .progress span {
+  background: var(--elixir-orange);
+}
+
+#title, #subtitle {
+    color: var(--elixir-blue)
+}
+
+#left30 {
+  text-align: left;
+  float: left;
+  width:30%;
+  z-index:-10;
+}
+
+#right60 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:60%;
+}
+
+#right70 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:70%;
+}
+
+#left40 {
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+#right40 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:40%;
+}
+
+#left60 {
+  text-align: left;
+  vertical-align: center;
+  float: left;
+  width:60%;
+  z-index:-10;
+}
+
+#left70 {
+  text-align: left;
+  vertical-align: center;
+  float: left;
+  width:70%;
+  z-index:-10;
+}
+
+#right30 {
+  float: right;
+  vertical-align: center;
+  text-align: left;
+  z-index:-10;
+  width:30%;
+}
+
+#left80 {
+  text-align: left;
+  float: left;
+  width:80%;
+  z-index:-10;
+}
+
+#center100 {
+  text-align: center;
+  width:100%;
+  float: left;
+}
+
+#right20 {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:20%;
+}
+
+#left30center {
+  text-align: center;
+  float: left;
+  width:30%;
+  z-index:-10;
+}
+
+#left40center {
+  text-align: center;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+#left50center {
+  text-align: center;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#left60center {
+  text-align: center;
+  float: left;
+  width:60%;
+  z-index:-10;
+}
+
+#role_text {
+  text-align: center;
+  font-weight:  bold;
+  font-size:  70%;
+  z-index:-10;
+}
+
+
+#service_text {
+  text-align: left;
+  font-weight:  bold;
+  font-size:  100%;
+  z-index:-10;
+  color: var(--elixir-orange);
+}
+
+.reveal blockquote {
+  color: var(--elixir-orange);
+  width: 100%;
+  margin: 30px;
+  border-color: var(--elixir-orange);
+
+}
+
+.reveal .controls {
+  display: none;
+  position: fixed;
+  width: 110px;
+  height: 110px;
+  z-index: 30;
+  left: 10px;
+  bottom: 10px;
+  -webkit-user-select: none; }
+
+html.intro body {
+background:url("../images/logos/ELIXIR_background.png");
+background-position:center;
+background-size: 100%;
+}
+
+.reveal section img { background:none; border:none; box-shadow:none; }
