@@ -1,13 +1,13 @@
 
-![ELIXIR](images/slide021.jpg)
+![ELIXIR](images/Slide021.jpg)
 
 ---Section---
 
-![ELIXIR](images/slide022.jpg)
+![ELIXIR](images/Slide022.jpg)
 
 ---Section---
 
-![ELIXIR](images/slide031.jpg)
+![ELIXIR](images/Slide031.jpg)
 
 ---Section---
 
