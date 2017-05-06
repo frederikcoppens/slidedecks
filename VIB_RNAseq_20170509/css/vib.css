@@ -1,0 +1,192 @@
+
+:root {
+  --vib-orange: rgb(255, 104, 30);
+  --vib-orange-dim: rgba(255, 104, 30, 0.7);
+  --vib-green: rgb(58, 187, 186);
+  --vib-purple: rgb(90, 42, 130);
+  --vib-dark-blue: rgb(27, 41, 60);
+  --vib-dark-blue-dim: rgb(27, 41, 60, 0.7);
+  --vib-light-grey: rgb(247, 244, 249);
+  --vib-dark-grey: rgb(255, 255, 255, 0.9);
+}
+
+#vib_logo{
+      position: fixed;
+      bottom: 2%;
+      left: 2%;
+      height : 100px;
+}
+
+#vib_logo_front{
+      position: fixed;
+      bottom: 2%;
+      left: 2%;
+      height : 100px;
+}
+
+#vib_tag{
+      position: fixed;
+      bottom: 2%;
+      right: 2%;
+      height : 50px;
+      font-family: "Dense";
+      font-weight: bold;
+      font-size: 30px;
+      color: var(--vib-dark-blue);
+}
+
+#vib_tag_front {
+      position: fixed;
+      top: 2%;
+      left: 2%;
+      height : 50px;
+      font-family: "Dense";
+      font-weight: bold;
+      font-size: 30px;
+      color: white;
+      z-index: 10;
+}
+
+#square2 {
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  width: 100%;
+	height: 100%;
+	background: var(--vib-dark-blue);
+  z-index: -40;
+  color: white;
+}
+
+#square2_h1 h1 {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  text-align: left;
+  color: white;
+}
+
+#square {
+  position: fixed;
+  right: -66px;
+  top: -260px;
+  transform: rotate(45deg);
+	width: 424px;
+	height: 573px;
+	background: var(--vib-green);
+  z-index: -30;
+}
+
+#triangle-up {
+  position: fixed;
+  bottom: 0%;
+  right: -200px;
+	width: 0;
+	height: 0;
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+	border-bottom: 400px solid var(--vib-purple);
+  z-index: -30;
+}
+
+#triangle-left {
+  position: fixed;
+  bottom: 200px;
+  right: 0px;
+	width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-right: 200px solid var(--vib-orange);
+	border-bottom: 200px solid transparent;
+  z-index: -30;
+}
+
+.reveal {
+  font-family: "Corbel", Helvetica, sans-serif;
+  color: var(--vib-dark-grey);
+}
+
+.reveal h1 {
+#  background-image: url("../images/logos/ELIXIR_background.png");
+#  background-position: left top;
+#  background-size: 100%;
+}
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  color: var(--vib-dark-blue);
+}
+
+.reveal a {
+  color: var(--vib-orange);
+}
+
+.reveal a:hover {
+  color: var(--vib-orange-dim);
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+  border-right-color: var(--vib-dark-blue); }
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+  border-left-color: var(--vib-dark-blue); }
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: var(--vib-dark-blue); }
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+  border-top-color: var(--vib-dark-blue); }
+
+.reveal .controls .navigate-left.enabled:hover {
+  border-right-color: var(--vib-dark-blue-dim); }
+
+.reveal .controls .navigate-right.enabled:hover {
+  border-left-color: var(--vib-dark-blue-dim); }
+
+.reveal .controls .navigate-up.enabled:hover {
+  border-bottom-color: var(--vib-dark-blue-dim); }
+
+.reveal .controls .navigate-down.enabled:hover {
+  border-top-color: var(--vib-dark-blue-dim); }
+
+.reveal .progress span {
+  background: var(--vib-dark-orange);
+}
+
+#left {
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+#right {
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:40%;
+}
+
+
+.reveal .controls {
+  display: none;
+  position: fixed;
+  width: 110px;
+  height: 110px;
+  z-index: 30;
+  left: 170px;
+  bottom: 10px;
+  -webkit-user-select: none; }
