@@ -1,4 +1,4 @@
-
+<!--
 <div id="square2">
 
 </div>
@@ -15,7 +15,11 @@
 <div id="vib_logo_front">
   <img src="images/logos/vib_notag_neg_rgb.png" alt="Logo VIB" height="80" class='plain'>
 </div>
+-->
 
+# Transcriptomics analysis with RNA-seq: an overview
+
+### Frederik Coppens
 
 ---Slide---
 
