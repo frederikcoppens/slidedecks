@@ -23,6 +23,6 @@
 
 ---Slide---
 
-* Platforms
-* Applications
-* Analyses
+<span id="item-block"> Platforms </span>
+<span id="item-block"> Applications </span>
+<span id="item-block"> Analyses </span>
