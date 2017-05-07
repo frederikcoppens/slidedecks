@@ -31,10 +31,10 @@
 <div id='left'>
 <h2>Quantification</h2>
 <ul>
-  <li>gene expression</li>
-  <li>targeted gene expression</li>
-  <li>non-coding RNA</li>
-  <li>small RNA</li>
+  <li>Gene expression</li>
+  <li>Targeted gene expression</li>
+  <li>Non-coding RNA</li>
+  <li>Small RNA</li>
 </ul>
 <h2 class="fragment" data-fragment-index="1" style='color:var(--vib-green)'>Known features</h2>
 </div>
@@ -63,6 +63,13 @@ Quantification - RNA content - isoform characterization - gene fusion
 
 # Quantification
 
+<ul>
+  <li>Gene expression</li>
+  <li>Targeted gene expression</li>
+  <li>Non-coding RNA</li>
+  <li>Small RNA</li>
+</ul>
+
 ---Slide---
 
 # Quantification
@@ -80,23 +87,23 @@ Quantification - RNA content - isoform characterization - gene fusion
 * Single reads versus Paired-End
 * Read length: from 50 to 600 bases
 * Stranded
-* Coverage
+* Sequencing depth
 
 ---Slide---
 
 ## Library preparation
 
 * RNA extraction
-* Selection e.g. poly-A
+* Selection e.g. poly-A, ribosomal depletion
 * Fragmentation e.g. 250 nt
-* Random primed cDNA synthesis
+* cDNA synthesis e.g. random primed
 * Adapter ligation & PCR amplification
 
 ---Slide---
 
 ## Single read versus Paired-End
 
-<img src='images/paired.jpg' width=70% alt='Paired-End' id='figure_plain'></img>
+<img src='images/Paired.jpg' width=70% alt='Paired-End' id='figure_plain'></img>
 
 ---Slide---
 
@@ -127,25 +134,25 @@ Quantification - RNA content - isoform characterization - gene fusion
 
 ---Slide---
 
-## Coverage
+## Sequencing depth
 
 <img src='images/scatter_htseq_array_red35.png' width=60% alt='Paired-End' id='figure_plain'></img>
 
 ---Slide---
 
-## Coverage
+## Sequencing depth
 
 <img src='images/scatter_htseq_array_red20.png' width=60% alt='Paired-End' id='figure_plain'></img></br>
 
 ---Slide---
 
-## Coverage
+## Sequencing depth
 
 <img src='images/scatter_htseq_array_red10.png' width=60% alt='Paired-End' id='figure_plain'></img>
 
 ---Slide---
 
-## Coverage
+## Sequencing depth
 
 <img src='images/scatter_htseq_array_red5.png' width=60% alt='Paired-End' id='figure_plain'></img>
 
@@ -181,8 +188,80 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 ---Slide---
 
 
-# Targeted expression profiling
+## Targeted expression profiling
 
-* In essence : microarray + RNA-seq
+### Hybridization + RNA-seq
+
+<ul>
+<li> Select for subset</il>
+  <ul>
+  <li> Exome sequencing</il>
+  <li> Gene panels e.g. disease related</il>
+  <li> Genome regions</il>
+  </ul>
+<li> Library prep contains hybridization step</il>
+<li> Decreases read depth needed</il>
+<li> Relies on good selection probes !</il>
+</ul>
+
+---Section---
+
+# RNA content
+
+<ul>
+  <li>*de novo* transcriptome assembly</li>
+  <li>whole transcripts</li>
+  <li>single cell RNA-seq</li>
+</ul>
 
 ---Slide---
+
+# Determine transcripts expressed
+
+<span id="item-block-content"> re-sequencing approach </span>
+<span id="item-block-content"> *de novo* assembly </span>
+<span id="item-block-content"> whole transcripts </span>
+
+---Slide---
+
+# What is your biological question ?
+
+---Slide---
+
+# Transcriptome re-sequencing
+
+## Determine variants to reference
+
+* Single Nucleotide Polymorphism (SNP)
+* Copy Number Variation (CNV)
+* Insertion & Deletion (InDel)
+* Structural Variant (SV)
+
+---Slide---
+
+# *de novo* transcript assembly
+
+* Assemble short reads to transcripts
+* Combine data
+  * Paired-End data
+  * Mate-pair data
+  * Long reads
+* Labour intensive
+* Results vary with algorithm
+
+---Slide---
+
+# Sequence the whole transcript
+
+* Normalization in library preparation ?
+* Combining size selections
+
+---Section---
+
+# Analysis
+
+---Slide---
+
+# Analysis
+
+<img src='images/RNASeqWorkFlow3.jpg' width=50% alt='RNA-seq workflow' id='figure_plain'></img>
