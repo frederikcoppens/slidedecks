@@ -23,6 +23,9 @@
 
 ---Slide---
 
-<span id="item-block"> Platforms </span>
-<span id="item-block"> Applications </span>
-<span id="item-block"> Analyses </span>
+<span id="item-block-3"> Platforms </span>
+<span id="item-block-3"> Applications </span>
+<span id="item-block-3"> Analysis </span>
+
+<span id="item-block-2"> Quantification </span>
+<span id="item-block-2"> RNA content </span>

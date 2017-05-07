@@ -55,9 +55,9 @@ Quantification - RNA content - isoform characterization - gene fusion
 
 ---Slide---
 
-<span id="item-block-content"> Library prep </span>
-<span id="item-block-content"> Sequencing </span>
-<span id="item-block-content"> Analysis </span>
+<span id="item-block-3-content"> Library prep </span>
+<span id="item-block-3-content"> Sequencing </span>
+<span id="item-block-3-content"> Analysis </span>
 
 ---Section---
 
@@ -216,11 +216,11 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 ---Slide---
 
-# Determine transcripts expressed
+## Determine transcripts expressed
 
-<span id="item-block-content"> re-sequencing approach </span>
-<span id="item-block-content"> *de novo* assembly </span>
-<span id="item-block-content"> whole transcripts </span>
+<span id="item-block-3-content"> re-sequencing </span>
+<span id="item-block-3-content"> *de novo* assembly </span>
+<span id="item-block-3-content"> whole transcripts </span>
 
 ---Slide---
 
@@ -228,9 +228,9 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 ---Slide---
 
-# Transcriptome re-sequencing
+## Transcriptome re-sequencing
 
-## Determine variants to reference
+### Determine variants to reference
 
 * Single Nucleotide Polymorphism (SNP)
 * Copy Number Variation (CNV)
@@ -239,7 +239,7 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 ---Slide---
 
-# *de novo* transcript assembly
+## *de novo* transcript assembly
 
 * Assemble short reads to transcripts
 * Combine data
@@ -251,8 +251,12 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 ---Slide---
 
-# Sequence the whole transcript
+## Sequence the whole transcript
 
+* Pacific Biosciences: Iso-seq
+* Oxford Nanopore
+  * cDNA
+  * direct RNA in early access
 * Normalization in library preparation ?
 * Combining size selections
 
@@ -260,8 +264,34 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 # Analysis
 
+* Quantification
+  * Genome/transcriptome mapping
+  * Transcriptome inference
+* RNA content
+  * Assembly
+  * Whole transcripts
+
+
 ---Slide---
 
-# Analysis
+# Quantification analysis
 
 <img src='images/RNASeqWorkFlow3.jpg' width=50% alt='RNA-seq workflow' id='figure_plain'></img>
+
+---Slide---
+
+# Quantification analysis
+
+* Quality control: discover biases
+* Quality filtering: remove very low quality
+* Assign to a feature
+  * Map to genome & summarize to features
+  * Map to transcripts
+  * Inference based transcript-level quantification
+
+---Slide---
+
+# Quantification analysis
+
+* Differential expression at gene-level
+* Dive into isoform differences
