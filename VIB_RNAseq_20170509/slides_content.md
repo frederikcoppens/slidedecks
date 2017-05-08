@@ -264,12 +264,20 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 # Analysis
 
-* Quantification
-  * Genome/transcriptome mapping
-  * Transcriptome inference
-* RNA content
-  * Assembly
-  * Whole transcripts
+
+<ul>
+<li> Quantification </li>
+  <ul>
+  <li> <span class="fragment highlight-green" data-fragment-index='1'>Genome or transcriptome mapping</span></li>
+  <li> <span class="fragment highlight-green" data-fragment-index='1'>Transcriptome inference</span></li>
+  </ul>
+<li> RNA content
+  <ul>
+  <li> Assembly </li>
+  <li> Whole transcripts </li>
+  </ul>
+<li> Single cell
+</ul>
 
 
 ---Slide---
@@ -282,16 +290,129 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 # Quantification analysis
 
-* Quality control: discover biases
-* Quality filtering: remove very low quality
-* Assign to a feature
-  * Map to genome & summarize to features
-  * Map to transcripts
-  * Inference based transcript-level quantification
+<div id='left'>
+<div id='item-block-purple'>Quality Control</div>
+<div id='item-block-green'>Quality Filtering</div>
+<div id='item-block-green'>Mapping</div>
+<div id='item-block-green'>Summarization</div>
+</div>
+
+<div id='left60'>
+<ul>
+<li> Technical control</li>
+<li> Discover biases in your data</li>
+<li> Tools : FastQC, RSeQC, ...</li>
+</ul>
+</div>
 
 ---Slide---
 
 # Quantification analysis
 
-* Differential expression at gene-level
-* Dive into isoform differences
+<div id='left'>
+<div id='item-block-green'>Quality Control</div>
+<div id='item-block-purple'>Quality Filtering</div>
+<div id='item-block-green'>Mapping</div>
+<div id='item-block-green'>Summarization</div>
+</div>
+
+<div id='left60'>
+<ul>
+<li> Remove low quality reads </li>
+<li> Trim adapters </li>
+<li> Remove too short after trimming </li>
+<li> For quantification: no need to be very strict </li>
+<li> Tools : Trimmomatic, FastX toolkit, cutadapt, ... </li>
+</ul>
+</div>
+
+---Slide---
+
+# Quantification analysis
+
+<div id='left'>
+<div id='item-block-green'>Quality Control</div>
+<div id='item-block-green'>Quality Filtering</div>
+<div id='item-block-purple'>Mapping</div>
+<div id='item-block-green'>Summarization</div>
+</div>
+
+<div id='left60'>
+<ul>
+<li> Map to reference genome</li>
+  <ul>
+  <li> Splice site capable !</li>
+  <li> Tools: GSNAP, HISAT2, STAR, ...</li>
+  </ul>
+<li> Map to reference transcripts</li>
+  <ul>
+  <li> Tools: same + Bowtie, BWA, ...</li>
+  </ul>
+<li> Number of mismatches allowed ?</li>
+</ul>
+</div>
+
+---Slide---
+
+# Quantification analysis
+
+<div id='left'>
+<div id='item-block-green'>Quality Control</div>
+<div id='item-block-green'>Quality Filtering</div>
+<div id='item-block-green'>Mapping</div>
+<div id='item-block-purple'>Summarization</div>
+</div>
+
+<div id='left60'>
+<ul>
+<li> Genome: assign to annotated feature </li>
+<li> Tools : HTSeq-count, featurecount </li>
+<li> Transcripts: count </li>
+<li> Tools : Samtools </li>
+</ul>
+</div>
+
+---Slide---
+
+# Inference based
+
+<div id='left'>
+<div id='item-block-green'>Quality Control</div>
+<div id='item-block-green'>Quality Filtering</div>
+<div id='item-block-green'>Mapping</div>
+<div id='item-block-green'>Summarization</div>
+</div>
+
+<div id='right'>
+<div id='item-block-green'>Quality Control</div>
+<div id='item-block-green'>Quality Filtering</div>
+<div id='item-block-purple'>Transcriptome inference</div>
+</div>
+
+
+---Slide---
+
+# Inference based
+
+<div id='left'>
+<div id='item-block-green'>Quality Control</div>
+<div id='item-block-green'>Quality Filtering</div>
+<div id='item-block-purple'>Transcriptome inference</div>
+</div>
+
+
+<div id='left60'>
+<ul>
+<li> Infer transcript </li>
+<li> Handles isoforms </li>
+<li> Fast ! </li>
+<li> Tools : Salmon, Kallisto, ... </li>
+</ul>
+</div>
+
+
+---Slide---
+
+# Thank you
+
+<img src='images/logos/vib_tagline_pos_rgb.png' width=40% alt='VIB' id='figure_plain'></img>

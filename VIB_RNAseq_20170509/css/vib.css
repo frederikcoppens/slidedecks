@@ -154,6 +154,45 @@
   display: inline-block;
 }
 
+#item-block-4-content {
+  border: none;
+  padding: 2.5%;
+  margin: 2.5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  background-color: var(--vib-green);
+
+  width:15%; /* or whatever width you want. */
+  max-width:15%; /* or whatever width you want. */
+  display: inline-block;
+}
+
+#item-block-green {
+  border: none;
+  padding: 2.5%;
+  margin: 2.5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  background-color: var(--vib-green);
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#item-block-purple {
+  border: none;
+  padding: 2.5%;
+  margin: 2.5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  background-color: var(--vib-purple);
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -183,6 +222,15 @@
   text-align: left;
   z-index:-10;
   width:40%;
+  font-size: 80%;
+}
+
+#left60 {
+  float: left;
+  text-align: left;
+  margin-left: 2%;
+  z-index:-10;
+  width:50%;
   font-size: 80%;
 }
 
