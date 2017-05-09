@@ -365,10 +365,15 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 <div id='left60'>
 <ul>
-<li> Genome: assign to annotated feature </li>
+<li> Genome: </li>
+  <ul>
+  <li> Assign to annotated feature </li>
+  <li> Uniquely mapping reads ? </li>
+  </ul
 <li> Tools : HTSeq-count, featurecount </li>
 <li> Transcripts: count </li>
-<li> Tools : Samtools </li>
+<li> Tools : Samtools idxstats </li>
+<li> Isoforms, duplications ? </li>
 </ul>
 </div>
 
@@ -403,6 +408,7 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 <div id='left60'>
 <ul>
+<li> Based on all transcripts </li>
 <li> Infer transcript </li>
 <li> Handles isoforms </li>
 <li> Fast ! </li>
@@ -413,6 +419,6 @@ For expression quantification 20 million fragments is sufficient : 20K expressed
 
 ---Slide---
 
-# Thank you
-
 <img src='images/logos/vib_tagline_pos_rgb.png' width=40% alt='VIB' id='figure_plain'></img>
+
+# Thank you
