@@ -1,6 +1,8 @@
 class: center, middle
 
-# Title
+# ELIXIR Belgium
+
+Frederik Coppens
 
 ---
 
