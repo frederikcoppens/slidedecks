@@ -1,17 +1,293 @@
-class: center, middle
+
+name: title_slide
+layout: true
+class: right, middle
+
+background-image: url("../images/ELIXIR_background.png")
+background-position: top
+background-repeat: no-repeat
+background-size: contain
+
+<div style="height:200px"></div>
+
+<img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
+
+---
+
+layout: true
+
+<img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
+
+---
+template: title_slide
+
+# ELIXIR
+
+## Safeguarding the results of life science research in Europe
+
+.italic[www.elixir-europe.org]
+
+---
+template: title_slide
 
 # ELIXIR Belgium
 
-Frederik Coppens
+### Frederik Coppens
+
+ELIXIR SME event Data Driven Food and Nutrition
+
+.italic[www.elixir-belgium.org]
 
 ---
 
-# Agenda
+# Outline
 
-1. Introduction
-2. Deep-dive
-3. ...
+## .highlight[ A short history ]
+## .highlight[ Objectives ]
+## .highlight[ Node Services ]
+## .highlight[ Towards the future ]
 
 ---
 
-# Introduction
+template: title_slide
+
+# A short history
+
+---
+
+# Towards a Belgian node
+
+* December 2013 : Memorandum of Understanding, Belgium joins ELIXIR
+* November 2015 : ELIXIR Consortium Agreement, full ELIXIR Member
+* November 2017 : ELIXIR Collaboration Agreement, bilateral agreements in place
+
+.center[<img src="images/vib_tagline_pos_rgb.png" style="height:100px;padding:30px" />]
+.center[Lead institute ELIXIR Belgium]
+
+---
+
+# Funding
+
+<span></span> | <span></span>
+---- | ----
+ELIXIR membership fee | <img src="images/belspo.png" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
+Project Coordinator | <img src="images/ewi.png" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
+ESFRI structural funding | <img src="images/ewi.png" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" /> <img src="images/FWO_Logo_Kleur.jpg" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
+H2020 ELIXIR-Excelerate | <img src="images/excelerate.png" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
+ELIXIR projects | <img src="images/ELIXIR_logo_white_background.png" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
+
+---
+class: center, middle
+
+# Members of the lead institute
+
+<img src="images/ElixirTeam.jpg" style="height:300px;" />
+
+<span></span> | <span></span> | <span></span>
+---- | ---- | ----
+| Yves Van de Peer | Head of Node
+| Frederik Coppens | deputy Head of Node & Technical Coordinator
+| Kim De Ruyck | Coordinator ELIXIR Belgium
+| Lieven Sterck | Technical Coordinator
+| Alexander Botzki | Training Coordinator
+
+---
+class: center, middle
+
+# Partners of ELIXIR Belgium
+
+<img src="images/Belgium.png" style="height:400px" />
+
+---
+
+template: title_slide
+
+# Objectives
+
+---
+
+class: center, middle
+
+# Aim of ELIXIR Belgium
+
+### .quote[ to ensure that Belgian researchers can focus on their research question, rather than technical details of data, interoperability, compute resources, … by providing tailored solutions based on an interoperable infrastructure across Europe.]
+
+---
+class: center, middle
+
+# Connecting people
+
+## on a national level
+
+### .highlight[Establish a connected bioinformatics community]
+
+* Organize & support events
+* Newsletter
+* www.elixir-belgium.org
+* <img src="images/Twitter_Logo_Blue.png" style="height:70px;vertical-align:middle;"> @ELIXIRnodeBE
+
+---
+class: center, middle
+
+# Connecting people
+
+## internationally
+
+### .highlight[Integrate into the European & international community]
+
+* events by ELIXIR Nodes
+* stimulate collaboration
+* www.elixir-europe.org
+* <img src="images/Twitter_Logo_Blue.png" style="height:70px;vertical-align:middle;"> @ELIXIREurope
+
+---
+class: center, middle
+
+# Connecting people
+
+## between academia and industry
+
+### .highlight[bring together all users of bioinformatics resources]
+
+---
+template: title_slide
+
+#  Node Services
+
+<!--
+* Sustainable agriculture
+* Human health
+* Proteomics
+-->
+
+---
+
+# Human Health
+
+
+### .highlight[ NGS Logistics]
+#### .highlight[ Yves Moreau, KU Leuven ]
+
+Platform for federated analysis of variants
+
+### .highlight[ VariantDB ]
+#### .highlight[  Geert Vandeweyer, Kris Laukens, UAntwerpen ]
+
+Versatile annotation and filtering database
+
+---
+
+## Beacons
+
+---
+
+#  Human Health
+
+### .highlight[ MS DataConnect ]
+#### .highlight[ Liesbet Peeters, Dirk Valkenborg, UHasselt ]
+Fair data for next generation management of multiple sclerosis
+
+### .highlight[ (IB)² services and databases ]
+#### .highlight[ Wim Vranken, VUB ]
+DynaMine, DEOGEN2
+
+---
+
+# Sustainable agriculture
+
+### .highlight[ PLAZA ]
+#### .highlight[ Klaas Vandepoele, VIB/UGent ]
+Plant comparative genomics analysis platform
+
+### .highlight[ ORCAE ]
+#### .highlight[  Lieven Sterck, Yves Van de Peer, VIB/UGent ]
+Online resource for curation and annotation of eukaryotic genomes
+
+---
+
+# Proteomics
+
+### .highlight[ Tabloid Proteome ]
+#### .highlight[ Lennart Martens, VIB/UGent ]
+Database of protein association network
+
+### .highlight[ Unipept ]
+#### .highlight[ Peter Dawyndt, UGent ]
+Application for metaproteomics data-analysis, focus on interactive data visualizations
+
+---
+# Training
+
+Event | In collaboration with | Scheduled
+---- | ---- | ----
+BYOD BrAPI hackathon | ELIXIR The Netherlands | May 2017
+Node services: PLAZA | VIB Bioinformatics Core | September 2017
+Bio-molecular data-mining | Kris Laukens (UAntwerpen) | September 2017
+Python for Data Processing | Geert-Jan Bex (KUL/UHasselt) | October 2017
+Data Carpentry | VIB Bioinformatics Core | November 2017
+
+### Future
+
+* Galaxy
+* FAIR data & data management
+* Software best practices
+
+---
+template: title_slide
+
+# Towards the future
+
+---
+
+# ELIXIR Communities
+
+---
+
+# ELIXIR Communities
+
+* Marine metagenomics
+* Plant
+* Human (translational) Data
+* Rare diseases
+
+## New in 2017
+
+* Proteomics
+* Metabolomics
+* Galaxy
+
+---
+
+# Build Activities in new Communities
+
+## Belgian Metabolomics meeting (September 29, 2017)
+
+*
+
+## Co-Chair ELIXIR Galaxy Community
+
+
+
+---
+
+# Activities
+
+* Cloud in collaboration with VSC
+* Data management
+* Training
+
+## Extending the network
+  * New partner: WIV - ISP
+  * Collaboration between ESFRIs
+  * Interest groups
+
+---
+
+class: center, middle
+
+<img src="images/ELIXIR_BELGIUM_white_background.png"  style="height:350px;" />
+
+<img src="images/vib_tagline_pos_rgb.png" style="height:80px" />
+<img src="images/belspo.png" height="80px" />
+<img src="images/ewi.png" height="80px" />
+<img src="images/FWO_Logo_Kleur.jpg" height="80px" />
