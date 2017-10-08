@@ -3,7 +3,7 @@ name: title_slide
 layout: true
 class: right, middle
 
-background-image: url("../images/ELIXIR_background.png")
+background-image: url("images/ELIXIR_background.png")
 background-position: top
 background-repeat: no-repeat
 background-size: contain
@@ -96,7 +96,7 @@ class: center, middle
 
 # Partners of ELIXIR Belgium
 
-<img src="images/Belgium.png" style="height:400px" />
+<img src="images/belgium.png" style="height:400px" />
 
 ---
 
@@ -241,16 +241,12 @@ template: title_slide
 
 # ELIXIR Communities
 
----
+*  <img src="images/use-case-marine.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> Marine metagenomics
+*  <img src="images/use-case-plant.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> Plant Sciences
+*  <img src="images/use-case-human-data.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> Human Data
+*  <img src="images/use-case-rare-disease.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> Rare Diseases
 
-# ELIXIR Communities
-
-* Marine metagenomics
-* Plant
-* Human (translational) Data
-* Rare diseases
-
-## New in 2017
+### New in 2017
 
 * Proteomics
 * Metabolomics
@@ -258,11 +254,14 @@ template: title_slide
 
 ---
 
-# Build Activities in new Communities
+# Activities in new Communities
 
-## Belgian Metabolomics meeting (September 29, 2017)
+## Proteomics
 
-*
+## Belgian Metabolomics meeting
+
+* September 29, 2017, Ghent
+* 18 research groups represented
 
 ## Co-Chair ELIXIR Galaxy Community
 
