@@ -183,6 +183,27 @@ Fair data for next generation management of multiple sclerosis
 
 # Beacons
 
+.highlight[Drive implementation of the Beacon technology within ELIXIR nodes]
+
+<div style="display:block;float:right">
+<img src="images/Beacon_countries.png"  style="height:300px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+</div>
+
+ELIXIR Authentication and Authorisation Infrastructure
+
+<span></span>  | <span></span>
+---- | ----
+<span style="color:green">Public</span> | Accessible to internet users
+<span style="color:yellow">Registered</span>  | Accessible to bona fide researchers
+<span style="color:red">Controlled</span>  | Authorized, signed agreement needed
+
+<img src="images/ELIXIR_BELGIUM_white_background.png"  style="height:70px;vertical-align:middle" /> NGS logistics
+
+<div style="display:block;position:absolute;bottom:10%;left:20%">
+<img src="images/beacon.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+<img src="images/ega.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+<img src="images/ga4gh.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+</div>
 ---
 
 # Sustainable agriculture
@@ -278,7 +299,7 @@ template: title_slide
 
 # Activities in Platforms
 
-<span><span/>  | <span><span/>  | <span><span/>
+<span></span>  | <span></span>  | <span></span>
 ---- | ---- | ----
 <img src="images/compute.png" style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> | .highlight[Compute] | Cloud in collaboration with VSC
 <img src="images/data.png"  style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> | .highlight[Data] | improve link with ELIXIR Core Data Resources
