@@ -8,7 +8,7 @@ background-position: top
 background-repeat: no-repeat
 background-size: contain
 
-<div style="height:200px"></div>
+<div style="height:240px"></div>
 
 <img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
@@ -32,9 +32,10 @@ template: title_slide
 
 # ELIXIR Belgium
 
-### Frederik Coppens
+## Frederik Coppens
 
-ELIXIR SME event Data Driven Food and Nutrition
+* Data-Driven Innovation in Food, Nutrition and Microbiome
+* Koninklijke Vlaams Schouwburg, Brussels, October 9-10, 2017
 
 .italic[www.elixir-belgium.org]
 
@@ -173,23 +174,14 @@ Platform for federated analysis of variants
 ### .highlight[ VariantDB ]
 #### .highlight[  Geert Vandeweyer, Kris Laukens, UAntwerpen ]
 
-Versatile annotation and filtering database
-
----
-
-## Beacons
-
----
-
-#  Human Health
+Versatile annotation and filtering database: allele frequencies, functional impact, pathogenicity predictions and pathway information
 
 ### .highlight[ MS DataConnect ]
 #### .highlight[ Liesbet Peeters, Dirk Valkenborg, UHasselt ]
 Fair data for next generation management of multiple sclerosis
+---
 
-### .highlight[ (IB)² services and databases ]
-#### .highlight[ Wim Vranken, VUB ]
-DynaMine, DEOGEN2
+# Beacons
 
 ---
 
@@ -209,11 +201,21 @@ Online resource for curation and annotation of eukaryotic genomes
 
 ### .highlight[ Tabloid Proteome ]
 #### .highlight[ Lennart Martens, VIB/UGent ]
-Database of protein association network
+Database of protein association network generated using publicly available mass spectrometry based experiments in PRIDE
 
 ### .highlight[ Unipept ]
 #### .highlight[ Peter Dawyndt, UGent ]
-Application for metaproteomics data-analysis, focus on interactive data visualizations
+metaproteomics data-analysis tool, focus on interactive data visualisations
+
+---
+
+# Proteomics
+
+### .highlight[ (IB)² services and databases ]
+#### .highlight[ Wim Vranken, VUB ]
+
+* DynaMine: a fast predictor of protein backbone dynamics based sequence information
+* DEOGEN2: prediction and interactive visualisation of single amino acid variant deleteriousness in human proteins
 
 ---
 # Training
@@ -256,29 +258,44 @@ template: title_slide
 
 # Activities in new Communities
 
-## Proteomics
+### Proteomics
 
-## Belgian Metabolomics meeting
+* Co-lead Community (Lennart Martens)
+* Add Node Services
+
+### Belgian Metabolomics meeting
 
 * September 29, 2017, Ghent
 * 18 research groups represented
 
-## Co-Chair ELIXIR Galaxy Community
+### ELIXIR Galaxy Community
 
-
+* Co-lead Community (Frederik Coppens)
+* Public webserver
+* Training
 
 ---
 
-# Activities
+# Activities in Platforms
 
-* Cloud in collaboration with VSC
-* Data management
-* Training
+<span><span/>  | <span><span/>  | <span><span/>
+---- | ---- | ----
+<img src="images/compute.png" style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> | .highlight[Compute] | Cloud in collaboration with VSC
+<img src="images/data.png"  style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> | .highlight[Data] | improve link with ELIXIR Core Data Resources
+<img src="images/interoperability.png"  style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" /> | .highlight[Interoperability]  | BioSchemas, Open Data & Data Management
+<img src="images/tools.png" style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />  | .highlight[Tools]  | bio.tools, workflows, containers
+<img src="images/training.png"  style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />  | .highlight[Training]  | Continue, expand training portfolio & publish in TeSS
 
-## Extending the network
-  * New partner: WIV - ISP
-  * Collaboration between ESFRIs
-  * Interest groups
+---
+
+# Extending our network
+
+* Prospective new partner: Scientific Institute for Public Health (WIV-ISP)
+* Exploring collaboration between ESFRIs
+* Establish interest group(s)
+  * SMEs & industry
+  * Research institutes
+  * ...
 
 ---
 
