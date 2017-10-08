@@ -82,15 +82,17 @@ class: center, middle
 
 # Members of the lead institute
 
-<img src="images/ElixirTeam.jpg" style="height:300px;" />
+<img src="images/ElixirTeam_top.png" style="height:250px;" />
 
-<span></span> | <span></span> | <span></span>
----- | ---- | ----
-| Yves Van de Peer | Head of Node
-| Frederik Coppens | deputy Head of Node & Technical Coordinator
-| Kim De Ruyck | Coordinator ELIXIR Belgium
-| Lieven Sterck | Technical Coordinator
-| Alexander Botzki | Training Coordinator
+<span></span> | <span></span>
+---- | ----
+ Yves Van de Peer | Head of Node
+ Frederik Coppens | deputy Head of Node & Technical Coordinator
+ Kim De Ruyck | Coordinator ELIXIR Belgium
+ Lieven Sterck | Technical Coordinator
+ Alexander Botzki | Training Coordinator
+ Kristoffer Rapacki | Data Science Cloud Coordinator
+ Paula Andrea Martinez | Trainer
 
 ---
 class: center, middle
@@ -166,19 +168,24 @@ template: title_slide
 # Human Health
 
 
-### .highlight[ NGS Logistics]
+### <img src="images/ngslogistics.png" style="height:50px;vertical-align:middle;"> .highlight[ NGS Logistics]
 #### .highlight[ Yves Moreau, KU Leuven ]
 
 Platform for federated analysis of variants
 
-### .highlight[ VariantDB ]
+### <img src="images/universiteit_antwerpen.png" style="height:50px;vertical-align:middle;"> .highlight[ VariantDB ]
 #### .highlight[  Geert Vandeweyer, Kris Laukens, UAntwerpen ]
 
 Versatile annotation and filtering database: allele frequencies, functional impact, pathogenicity predictions and pathway information
 
-### .highlight[ MS DataConnect ]
+---
+
+# Human Health
+
+###  <img src="images/msdataconnect.png" style="height:50px;vertical-align:middle;"> .highlight[ MS DataConnect ]
 #### .highlight[ Liesbet Peeters, Dirk Valkenborg, UHasselt ]
-Fair data for next generation management of multiple sclerosis
+FAIR data for next generation management of multiple sclerosis
+
 ---
 
 # Beacons
@@ -208,11 +215,11 @@ ELIXIR Authentication and Authorisation Infrastructure
 
 # Sustainable agriculture
 
-### .highlight[ PLAZA ]
+###  <img src="images/plaza.jpg" style="height:50px;vertical-align:middle;"> .highlight[ PLAZA ]
 #### .highlight[ Klaas Vandepoele, VIB/UGent ]
 Plant comparative genomics analysis platform
 
-### .highlight[ ORCAE ]
+###  <img src="images/orcae.png" style="height:50px;vertical-align:middle;"> .highlight[ ORCAE ]
 #### .highlight[  Lieven Sterck, Yves Van de Peer, VIB/UGent ]
 Online resource for curation and annotation of eukaryotic genomes
 
@@ -220,11 +227,11 @@ Online resource for curation and annotation of eukaryotic genomes
 
 # Proteomics
 
-### .highlight[ Tabloid Proteome ]
+###  <img src="images/tabloid.png" style="height:50px;vertical-align:middle;"> .highlight[ Tabloid Proteome ]
 #### .highlight[ Lennart Martens, VIB/UGent ]
 Database of protein association network generated using publicly available mass spectrometry based experiments in PRIDE
 
-### .highlight[ Unipept ]
+###  <img src="images/unipept.png" style="height:50px;vertical-align:middle;"> .highlight[ Unipept ]
 #### .highlight[ Peter Dawyndt, UGent ]
 metaproteomics data-analysis tool, focus on interactive data visualisations
 
@@ -232,7 +239,7 @@ metaproteomics data-analysis tool, focus on interactive data visualisations
 
 # Proteomics
 
-### .highlight[ (IB)² services and databases ]
+###  <img src="images/ib2.png" style="height:50px;vertical-align:middle;"> .highlight[ (IB)² services and databases ]
 #### .highlight[ Wim Vranken, VUB ]
 
 * DynaMine: a fast predictor of protein backbone dynamics based sequence information
@@ -311,12 +318,17 @@ template: title_slide
 
 # Extending our network
 
-* Prospective new partner: Scientific Institute for Public Health (WIV-ISP)
-* Exploring collaboration between ESFRIs
-* Establish interest group(s)
-  * SMEs & industry
-  * Research institutes
-  * ...
+### Prospective new partner
+<img src="images/wiv.png" style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />  Scientific Institute for Public Health (WIV-ISP)
+
+### Establishing collaborations
+
+* ESFRIs
+* Strategic Research Centers (SOCs)
+* SMEs & industry
+* Research institutes
+
+e.g. through Interest Group(s)
 
 ---
 
