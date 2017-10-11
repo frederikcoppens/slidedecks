@@ -265,7 +265,7 @@ template: title_slide
 
 ---
 
-# Use Cases >>> Communities
+# Use Cases to Communities
 
 * Keep Use Cases naming for ELIXIR-Excelerate
 * Next Scientific Programme 2019-2023: switch to .highlight[Communities]
