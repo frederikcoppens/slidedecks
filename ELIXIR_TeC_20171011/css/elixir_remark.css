@@ -36,10 +36,10 @@ ul {
   margin: 0;
 }
 
-li::before {
-  #content: "•";
-  #color: var(--elixir-orange);
-  #padding-right: 1em;
+ul li::before {
+  content: "•";
+  color: var(--elixir-orange);
+  padding-right: 1em;
 }
 
 table {
@@ -62,13 +62,18 @@ tr, th {
 }
 
 .quote {
+  display: block;
   font-family: "Corbel", Helvetica, sans-serif;
   text-transform: none;
+  line-height: 150%;
   font-weight: large;
   color: var(--elixir-orange);
   font-style: italic;
   align: justify;
-  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .remark-code, .remark-inline-code {
