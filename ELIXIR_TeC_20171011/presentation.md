@@ -331,6 +331,17 @@ template: title_slide
   * Each Node to declare a person as a point of contact for each Platform who would be involved in RoadMapping and Project planning.
 
 ---
+
+# Organisational chart
+
+<img src="images/Organisational_chart.png"  style="height:350px;vertical-align:middle;" />
+---
+
+# Information flow
+
+<img src="images/Information_flow.png"  style="height:350px;vertical-align:middle;" /> 
+---
+
 template: title_slide
 
 # ELIXIR Programme and Annual Work Plan
