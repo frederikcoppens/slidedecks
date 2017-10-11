@@ -240,3 +240,41 @@ template: title_slide
 * 2 sub-WGs created to progress further the more complex recommendations
 
 ---
+
+# ELIXIR interactions with users
+
+### ELIXIR should consider interacting with users in 4 ways
+
+* Strong national ELIXIR Nodes
+* Communities
+* Collective participation in international flagship initiatives
+* Public interface to ELIXIR Services for individual users
+
+---
+
+# Overview
+
+## .highlight[ELIXIR Communities]
+## .highlight[ELIXIR Platforms]
+## .highlight[Programme and Annual Work plan: Commissioned Services]
+
+---
+template: title_slide
+
+# ELIXIR Communities
+
+---
+
+# Use Cases >>> Communities
+
+* Keep Use Cases naming for ELIXIR-Excelerate
+* Next Scientific Programme 2019-2023: switch to .highlight[Communities]
+
+.quote[The term “Use Cases” was coined for the EXCELERATE project and it works well within the
+limits of the project. However, “Use Case” has a well-defined meaning in engineering , which
+is not suitable for ELIXIR when considering the services we develop and sustain for user
+communities in the long-term.]
+
+.quote[Communities will function similarly to Use Cases, where activities will be funded through a variety of sources including Hub-funded Commissioned Services, project-based funding from the European Commission and commitments from ELIXIR Nodes.]
+
+---
