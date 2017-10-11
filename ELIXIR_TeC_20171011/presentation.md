@@ -215,3 +215,28 @@ class: center, middle
 <img src="images/FWO_Logo_Kleur.jpg" height="80px" />
 
 ---
+template: title_slide
+
+# ELIXIR HoN Working Group
+
+## Frederik Coppens
+
+---
+
+# WG scope structure and work progress
+
+* F2F meeting (Amsterdam)
+* Co-chairs visit Hub
+* 3 TCs
+* 2 TCs still planned
+
+### The WG scope
+
+1. ELIXIR Platforms
+2. Annual Work plan: Commissioned Services
+3. Communities
+
+* F2F notes translated into recommendations, prioritised and logically combined
+* 2 sub-WGs created to progress further the more complex recommendations
+
+---
