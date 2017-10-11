@@ -65,7 +65,10 @@ class: center, middle
 
 # Partners of ELIXIR Belgium
 
-<img src="images/belgium.png" style="height:400px" />
+<img src="images/belgium.png" style="height:350px" />
+
+Expect to add Scientific Institute for Public Health (WIV-ISP)  <img src="images/wiv.png" style="width:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+
 
 ---
 
