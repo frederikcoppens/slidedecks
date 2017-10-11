@@ -270,11 +270,4 @@ template: title_slide
 * Keep Use Cases naming for ELIXIR-Excelerate
 * Next Scientific Programme 2019-2023: switch to .highlight[Communities]
 
-.quote[The term “Use Cases” was coined for the EXCELERATE project and it works well within the
-limits of the project. However, “Use Case” has a well-defined meaning in engineering , which
-is not suitable for ELIXIR when considering the services we develop and sustain for user
-communities in the long-term.]
-
-.quote[Communities will function similarly to Use Cases, where activities will be funded through a variety of sources including Hub-funded Commissioned Services, project-based funding from the European Commission and commitments from ELIXIR Nodes.]
-
 ---
