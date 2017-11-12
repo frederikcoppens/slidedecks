@@ -8,6 +8,7 @@ Slides by Frederik Coppens
 
 * [ELIXIR Belgium launch](ELIXIR_Belgium_launch_20170209)
 * [ELIXIR SME event Brussels October 2017](ELIXIR_Belgium_SME_20171009)
+* [fig share fest Gent November 2017](ELIXIR_Belgium_figshare_20171116)
 
 ## ELIXIR
 
