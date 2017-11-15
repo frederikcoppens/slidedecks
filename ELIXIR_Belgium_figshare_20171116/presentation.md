@@ -35,13 +35,11 @@ template: title_slide
 
 # Outline
 
-### ELIXIR & ELIXIR Belgium
+### ELIXIR: European infrastructure for biological information
 
-### Services
+### ELIXIR Belgium
 
-#### Platforms
-
-#### Communities
+### ELIXIR Services: from an data / information management point of view
 
 ---
 
@@ -53,11 +51,14 @@ template: title_slide
 
 # European infrastructure for biological information
 
-<span></span> | <span></span>
----- | ----
-Train driver | People !
-Train wagon | .highlight[Services]
-Train tracks | Hardware
+<span></span> | <span></span> | <span></span>
+---- | ---- | ----
+<img src="images/train.png" style="width:250px;" /> | .highlight[Domain specific Services] | ESFRIs
+<img src="images/railroad.png" style="width:250px;" /> | Storage, Compute, Network | e-Infrastructures
+
+???
+
+People !
 
 ---
 class: center, middle
@@ -139,7 +140,7 @@ class: center, middle
 
 # Aim of ELIXIR Belgium
 
-### .quote[ to ensure that Belgian researchers can focus on their research question, rather than technical details of data, interoperability, compute resources, … by providing tailored solutions based on an interoperable infrastructure across Europe.]
+### .quote[ to ensure that Belgian researchers in life sciences can focus on their research question, rather than technical details of data, interoperability, compute resources, … by providing tailored solutions based on an interoperable infrastructure across Europe.]
 
 ---
 
@@ -168,6 +169,7 @@ class: center, middle
 * events by ELIXIR Nodes
 * stimulate collaboration
 * www.elixir-europe.org
+* F1000Research ELIXIR channel
 * <img src="images/Twitter_Logo_Blue.png" style="height:70px;vertical-align:middle;"> @ELIXIREurope
 
 ---
@@ -182,7 +184,7 @@ class: center, middle
 ---
 template: title_slide
 
-# Services
+# ELIXIR Services
 
 ---
 class: center, middle
@@ -202,13 +204,6 @@ class: center, middle
 New Communities: Proteomics, Metabolomics, Galaxy
 
 ---
-class: center, middle
-
-# ELIXIR Services
-
-<img src="images/ELIXIR_services.png" style="height:400px;" />
-
----
 
 # FAIR Data Position Paper
 
@@ -224,24 +219,6 @@ programme   for   the   life   sciences.
 7. Good   research   data   management   requires   appropriate   .highlight[funding   for   data   infrastructures].
 
 [https://www.elixir-europe.org/news/position-paper-fair-data-management](https://www.elixir-europe.org/news/position-paper-fair-data-management)
-
----
-
-template: title_slide
-
-# ELIXIR Platforms
-
----
-
-# Data Platform
-
-### ELIXIR Core Data Resources
-
-* fundamental importance to the wider life-science community
-* long-term preservation of biological information
-* ensure sustainability
-
-https://www.elixir-europe.org/platforms/data/core-data-resources
 
 ---
 
@@ -264,31 +241,85 @@ https://www.elixir-europe.org/platforms/data/elixir-deposition-databases
 
 ---
 
+# Data Platform
+
+### ELIXIR Core Data Resources
+
+#### Fundamental importance to the wider life-science community
+#### Long-term preservation of biological information
+#### Ensure sustainability
+
+Examples:
+
+* European Nucleotide Archive (ENA)
+* Europe PubMed Central
+* Human Protein Atlas
+
+https://www.elixir-europe.org/platforms/data/core-data-resources
+
+---
+
+
+# Beacons
+
+.highlight[Drive implementation of the Beacon technology within ELIXIR nodes]
+
+<div style="display:block;float:right">
+<img src="images/Beacon_countries.png"  style="height:300px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+</div>
+
+ELIXIR Authentication and Authorisation Infrastructure
+
+<span></span>  | <span></span>
+---- | ----
+<span style="color:green">Public</span> | Accessible to internet users
+<span style="color:yellow">Registered</span>  | Accessible to bona fide researchers
+<span style="color:red">Controlled</span>  | Authorized, signed agreement needed
+
+<div style="display:block;position:absolute;bottom:10%;left:20%">
+<img src="images/beacon.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+<img src="images/ega.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+<img src="images/ga4gh.png"  style="height:50px;vertical-align:middle;padding-right:20px;padding-bottom:10px" />
+</div>
+---
+
 # Interoperability Platform
 
 .quote[ELIXIR encourages the life science community to adopt standardised file formats, metadata, vocabularies and identifiers.]
 
-### FAIR principles
+#### FAIR principles
 
-### Interoperability provisioning profile
+#### Metadata: annotation & ontologies
 
-* how metadata is annotated: at acquisition, at source or retrospective
-* direct or indirect cooperation of providers in annotation and harvesting
-
-### Interoperability value proposition
-
-* what is the effort / return for the stakeholder
-
-[https://www.elixir-europe.org/platforms/interoperability](https://www.elixir-europe.org/platforms/interoperability)
+#### Value proposition: return on investment for stakeholder
 
 ---
 
 # BioSchemas.org
 
 * .highlight[Schema.org] semantic markup of webpages
-* collection of specifications that provide guidelines for markup within the life sciences
+* collection of specifications that provide guidelines for markup within life sciences
+* Generic service as part of the European Open Science Cloud
 
 .center[<img src="images/BioSchemas.png" style="height:400px;" />]
+
+---
+
+# BioSchemas.org
+
+.center[<img src="images/BioSchemas_applepie.png" style="height:400px;" />]
+
+---
+
+# Training eSupport System
+
+* Disseminate, discover & package training resources, training materials and events
+* Aggregating information from ELIXIR nodes and 3rd-party content providers
+
+<img src="images/ELIXIR_TeSS_logo.png" style="height:100px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
+<img src="images/ELIXIR_TeSS.png" style="height:250px;vertical-align:middle;" />
+
+[https://tess.elixir-uk.org](https://tess.elixir-uk.org)
 
 ---
 
@@ -298,7 +329,21 @@ https://www.elixir-europe.org/platforms/data/elixir-deposition-databases
 
 .center[<img src="images/FAIRsharing.png" style="height:400px;" />]
 
+
+???
+
+Ontology lookup service
+Identifiers.org
+
 ---
+
+# Tools & Services Registry
+
+https://bio.tools
+
+.center[<img src="images/biotools.png" style="height:400px;" />]
+
+???
 
 # Tools Platform
 
@@ -313,26 +358,18 @@ https://www.elixir-europe.org/platforms/data/elixir-deposition-databases
 [Jiménez et al. Four simple recommendations to encourage best practices in research software. F1000Research 2017, 6:876](http://dx.doi.org/10.12688/f1000research.11407.1)
 
 #### Tools interoperability (e.g. Common Workflow Language)
-#### Galaxy
-
-[https://www.elixir-europe.org/platforms/tools](https://www.elixir-europe.org/platforms/tools)
----
-
-# bio.tools
-
-.center[<img src="images/biotools.png" style="height:400px;" />]
 
 ---
 
-# biocontainers.pro
+# Workflows
 
-.center[<img src="images/biocontainers.png" style="height:350px;" />]
-
-.center[<img src="images/bioconda.png" style="height:70px;" />]
+.center[<img src="images/4_list_paired_collection_workflow.png" style="height:400px;" />]
 
 ---
 
 # Galaxy
+
+https://usegalaxy.org
 
 .center[<img src="images/Galaxy.png" style="height:400px;" />]
 
@@ -356,51 +393,64 @@ Co-chairing with Björn Grüning (de.NBI, ELIXIR Germany)
 
 ---
 
-# Compute Platform
 
-### ELIXIR AAI
+# Software deployment
+
+https://biocontainers.pro/
+
+.center[<img src="images/biocontainers.png" style="height:350px;" />]
+
+.center[<img src="images/bioconda.png" style="height:70px;" />]
+
+---
+# Training
+
+Event | In collaboration with | Scheduled
+---- | ---- | ----
+BYOD BrAPI hackathon | ELIXIR The Netherlands | May 2017
+Node services: PLAZA | VIB Bioinformatics Core | September 2017
+Bio-molecular data-mining | Kris Laukens (UAntwerpen) | September 2017
+Python for Data Processing | Geert-Jan Bex (KUL/UHasselt) | October 2017
+Data Carpentry | VIB Bioinformatics Core | November 2017
+
+### Future
+
+* Galaxy
+* FAIR data & data management
+* Software best practices
 
 ---
 
-# Training Platform
+# Data management WG
 
-Software & Data Carpentry
-
----
-
-# Training eSupport System (TeSS)
-
-* Platform to disseminate, discover & package training resources, training materials and events
-* Aggregating information from ELIXIR nodes and various 3rd-party content providers
-
-<img src="images/ELIXIR_TeSS_logo.png" style="height:70px;vertical-align:middle;horizontal-align:right;margin-left:20px" /> [https://tess.elixir-uk.org](https://tess.elixir-uk.org)
-
-.right[<img src="images/ELIXIR_TeSS.png" style="height:250px;" />]
-
----
-
-# TeSS workflows
-
-<iframe width="800" height="500" src="https://tess.elixir-europe.org/workflows/chip-seq-workflow/embed"></iframe>
-
----
-
-# Data management Working Group
-
-* Build a network of Data Stewards
-* Provide a checklist
-* Complementary to dmponline
+#### Build a network of Data Stewards
+#### Provide a checklist
+#### Complementary to dmponline
 
 ### Data Stewardship Wizard
 
 Work in progress:  https://dmp.fairdata.solutions
 
+.center[<img src="images/DataStewardshipWizard.png" style="height:250px;" />]
+
 ---
 
-# ELIXIR take home
+.right[<img src="images/ELIXIR_logo_white_background.png" height="200px"/>]
 
-*
 
+#### Data infrastructure for Europe’s life-science research
+
+#### Life-science gateway for the European Open Science Cloud
+
+#### Broadly applicable solutions for common challenges
+
+#### FAIR at the Core
+
+* Data
+* Metadata
+* Tools & Services
+* Analysis workflows
+* ...
 
 ---
 
