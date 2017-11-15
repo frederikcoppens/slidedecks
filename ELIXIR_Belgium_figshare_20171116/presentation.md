@@ -39,7 +39,7 @@ template: title_slide
 
 ### ELIXIR Belgium
 
-### ELIXIR Services: from an data / information management point of view
+### ELIXIR Services: from an data management point of view
 
 ---
 
@@ -398,7 +398,7 @@ Co-chairing with Björn Grüning (de.NBI, ELIXIR Germany)
 
 https://biocontainers.pro/
 
-.center[<img src="images/biocontainers.png" style="height:350px;" />]
+.center[<img src="images/BioContainers.png" style="height:350px;" />]
 
 .center[<img src="images/bioconda.png" style="height:70px;" />]
 
