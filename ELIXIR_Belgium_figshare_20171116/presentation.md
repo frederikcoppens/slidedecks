@@ -458,7 +458,7 @@ Work in progress:  https://dmp.fairdata.solutions
 
 # Challenge
 
-### Organize local data & metadata, connect with daily research and publishing
+### Organize local data & metadata, compatible with daily research and publishing practices
 
 ---
 
