@@ -454,6 +454,14 @@ Work in progress:  https://dmp.fairdata.solutions
 
 ---
 
+.right[<img src="images/ELIXIR_BELGIUM_white_background.png" height="200px"/>]
+
+# Challenge
+
+### Organize & connect local organisation of data & metadata with daily research practices and public data repositories
+
+---
+
 class: center, middle
 
 <img src="images/ELIXIR_BELGIUM_white_background.png"  style="height:350px;" />
