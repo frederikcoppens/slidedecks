@@ -86,7 +86,7 @@ by Manuel Corpas, Frederik Coppens & the ELIXIR Galaxy community
 
 ## Activities on Training
 
-* January 2017 : European Galaxy Developers in Strasbourg, France
+* January 2017 : European Galaxy Developers in Strassbourg, France
 * May 2017 : ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use in Cambridge, UK
 * January 2018 : European Admin Workshop in Oslo, Norway
 
@@ -147,6 +147,13 @@ template: title_slide
 
 class: center, middle
 
-<img src="images/ELIXIR_logo_white_background.png"  style="height:350px;" />
+# Thank you
 
-<img src="images/vib_tagline_pos_rgb.png" style="height:80px" />
+<img src="images/ELIXIR_logo_white_background.png"  style="height:200px;padding:10px;vertical-align:middle" />
+<img src="images/psbpos.jpg" style="height:150px;padding:10px;vertical-align:middle" />
+
+<img src="images/vib_tagline_pos_rgb.png" style="height:60px;padding:10px" />
+<img src="images/belspo.png" style="height:60px;padding:10px" />
+<img src="images/ewi.png" style="height:60px;padding:10px" />
+<img src="images/FWO_Logo_Kleur.jpg" style="height:60px;padding:10px" />
+<img src="images/excelerate.png" style="height:60px;padding:10px" />
