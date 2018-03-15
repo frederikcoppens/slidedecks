@@ -1,0 +1,77 @@
+:root {
+  --elixir-blue: rgb(0, 84, 114);
+  --elixir-blue-dim: rgba(0, 84, 114, 0.7);
+  --elixir-orange: rgb(244, 125, 32);
+  --elixir-orange-dim: rgba(244, 125, 32, 0.7);
+  --elixir-grey: rgb(77, 72, 72);
+  --elixir-green: rgb(190, 191, 50);
+}
+
+body {
+  font-family: "Corbel", Helvetica, sans-serif;
+  color: var(--elixir-grey);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  color: var(--elixir-blue);
+}
+
+h3 {
+  color: var(--elixir-orange);
+  #font-style: italic;
+}
+
+li {
+  line-height: 150%;
+  padding-left: 30px;
+  text-indent: -.7em;
+}
+
+ul {
+  padding: 0;
+  #list-style-type: none ;
+  margin: 0;
+  font-size: 150%;
+}
+
+li::before {
+  #content: "•";
+  #color: var(--elixir-orange);
+  #padding-right: 1em;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+}
+
+tr, th {
+  text-align: left;
+}
+
+#tr:nth-child(even) {background-color: #f2f2f2}
+
+.italic {
+  font-style: italic;
+}
+
+.highlight {
+  color: var(--elixir-orange);
+}
+
+.quote {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: large;
+  color: var(--elixir-orange);
+  font-style: italic;
+  align: justify;
+  padding: 20px;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: Courier, serif;
+}
