@@ -14,3 +14,4 @@ Slides by Frederik Coppens
 
 * [Tools F2F Amsterdam 2017](ELIXIR_Tools_all_hands_20170131)
 * [TeC F2F Paris 2017](ELIXIR_TeC_20171011)
+* [Galaxy User Conference Freiburg 2018](ELIXIR_Galaxy_Freiburg_20180315)
