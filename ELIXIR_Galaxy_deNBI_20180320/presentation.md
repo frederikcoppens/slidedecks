@@ -13,6 +13,12 @@ background-size: contain
 <img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
 ---
+layout: true
+name: galaxy_slide
+
+background-color: #2c3143
+
+---
 
 layout: true
 
@@ -57,7 +63,32 @@ template: title_slide
 
 ---
 
+.center[<img src="images/galaxy_logo.png" style="height:100px;" />]
 
+* workflow management system   
+* web-based user-interface
+* inherent support for reproducible science
+* facilitates sharing of data and results
+* removes the need for users to compile and install tools
+
+### Galaxy is available as a world-wide free-to-use online portal, and can be freely downloaded for a local installation.
+
+
+
+---
+
+.center[<img src="images/galaxy_logo.png" style="height:100px;" />]
+
+
+.center[<img src="images/UseGalaxy.png" style="height:400px;" /> https://usegalaxy.org
+]
+
+
+---
+
+# Workflows
+
+.center[<img src="images/4_list_paired_collection_workflow.png" style="height:400px;" />]
 
 ---
 template: title_slide
@@ -131,13 +162,12 @@ template: title_slide
 
 # ELIXIR Galaxy Community
 
-* A European network of Galaxy communities
-* Visualisation in Galaxy
-* Galaxy cloud infrastructure across Europe
-* Data access & integration in Galaxy
 * Bringing Tools and Data together
-* Training
 * FAIR data, tools, workflows & Galaxy
+* Training
+* Data access & integration in Galaxy
+* Galaxy cloud infrastructure across Europe
+* A European network of Galaxy communities
 
 ---
 
@@ -145,15 +175,9 @@ template: title_slide
 
 ### NGS
 
-### Metabolomics
+### Metabolomics [<img src="images/PhenoMeNal_logo.png" style="height:40px;" />](http://phenomenal-h2020.eu) [<img src="images/logo-ifb-mono-metabohub_2.1_SD_150px.png" style="height:40px;" />](http://workflow4metabolomics.org)
 
-* [PhenoMeNal](http://phenomenal-h2020.eu)
-* [W4M : Workflows for Metabolomics](http://workflow4metabolomics.org)
-
-
-### Proteomics
-
-* [Galaxy-P](http://galaxyp.org)
+### Proteomics [<img src="images/GalaxyP_logo.png" style="height:50px;" />](http://galaxyp.org)
 
 ### Metagenomics
 
@@ -167,15 +191,21 @@ template: title_slide
 
 # Towards FAIR
 
-### Data
-
 ### Tools
 
 ### Workflows
 
+### Data
+
 ### Training materials
 
 ### ...
+
+
+---
+template: galaxy_slide
+
+.center[<img src="images/galaxy-eu.inv.1024.png"  style="height:200px;padding:10px;align:middle;margin-top:200px;" />]
 
 ---
 
@@ -185,25 +215,75 @@ https://bio.tools
 
 .center[<img src="images/biotools.png" style="height:400px;" />]
 
----
-
-# BioContainers
+[ReGaTE: Registration of Galaxy Tools in ELIXIR](https://www.ncbi.nlm.nih.gov/pubmed/28402416)
 
 ---
 
-# BioSchemas.org
+# Tools packaging & dependencies
 
-.center[<img src="images/BioSchemas_applepie.png" style="height:400px;" />]
+.center[<img src="images/Conda_overview.png" style="width:700px;" />]
+
+???
+
+* Programming language agnostic
+* OS independent
+* No root privileges needed
+* Management of multiple version
+* HPC and Cloud compatible
+* Easy to maintain
 
 ---
 
-# BioSchemas.org
+# Containers
+
+.center[<img src="images/Conda_containers.png" style="width:700px;" />]
 
 ---
 
-# Data
+# Software deployment
+
+.center[<img src="images/BioContainers.png" style="height:350px;" /> https://biocontainers.pro/ ]
+
+---
+
+# Future focus areas
+
+## Workflows
+
+* Agnostic repository improvements e.g. myExperiment
+* Facilitate sharing between Galaxy instances
+
+## Data
+
+* Facilitate access to data in public repositories
+* Container based sensitive data setup
+
+---
+
+# Galaxy Training Infrastructure
+
+* Interactive learning platform
+* Support for current research problems
+* Effective training for individual users & instructors
+* Community driven (content creation and maintenance)
+* Convenient, hassle-free tutorial creation
+* Enables transparent peer-review and curation
+* FAIR: Findable, Accessible, Interoperable, Reusable
+* Open
+
+---
 
 
+# Galaxy Training Infrastructure
+
+.center[<img src="images/training_material.png" style="height:450px;vertical-align:middle" />
+[Bérénice Batut](https://github.com/bebatut/talks/tree/master/18/03_16_galaxy_user_conf)]
+
+---
+
+# Galaxy Training Infrastructure
+
+.center[<img src="images/training_galaxyproject.png" style="height:450px;vertical-align:middle" /> https://training.galaxyproject.org]
 
 ---
 
@@ -215,25 +295,41 @@ https://bio.tools
 <img src="images/ELIXIR_TeSS_logo.png" style="height:100px;vertical-align:middle;horizontal-align:right;margin-left:20px" />
 <img src="images/ELIXIR_TeSS.png" style="height:250px;vertical-align:middle;" />
 
-[https://tess.elixir-uk.org](https://tess.elixir-uk.org)
+.center[[https://tess.elixir-uk.org](https://tess.elixir-uk.org)]
 
 ---
+template: title_slide
 
-# Galaxy Training Network
-
-<img src="images/training_material.png" style="height:450px;vertical-align:middle" />
-
-[Bérénice Batut](https://github.com/bebatut/talks/tree/master/18/03_16_galaxy_user_conf)
+# Towards an integrated data analysis infrastructure
 
 ---
+template: galaxy_slide
 
-# Compute
+.center[<img src="images/useGalaxy.eu.inv.1024.png"  style="width:700px;padding:10px;align:middle;margin-top:200px;" />]
 
 ---
 
 # usegalaxy.eu
 
+* Launched March 15, 2018
+* Thousands of documented and maintained tools
+* Free registration
+* 250 GB per user
+* Training capacities on demand and online
 
+.center[<img src="images/freiburg-galaxy.1024.png" style="height:80px;padding:10px;vertical-align:middle" /> <img src="images/denbi.png" style="height:80px;padding:10px;vertical-align:middle" />]
+
+---
+
+# Towards a federation of Galaxies
+
+* Link instances across the globe
+* Minimal requirements: enable all training materials
+* Workload located based on your affiliation
+* Facilitates sharing Workflows
+* Rapid access to new developments
+* Easier maintenance of servers
+* ...
 
 ---
 
@@ -251,145 +347,3 @@ class: center, middle
 <img src="images/excelerate.png" style="height:60px;padding:10px" />
 
 ---
-
-
----
-
-
----
-
-
-
-# Tools & Services Registry
-
-https://bio.tools
-
-.center[<img src="images/biotools.png" style="height:400px;" />]
-
-???
-
-# Tools Platform
-
-.quote[improve the discovery, quality and sustainability of software resources]
-
-#### Tools and services registry
-#### Scientific benchmark and technical monitoring
-#### Software deployment
-#### Workflows and workbenches
-#### Software best practices
-
-[Jiménez et al. Four simple recommendations to encourage best practices in research software. F1000Research 2017, 6:876](http://dx.doi.org/10.12688/f1000research.11407.1)
-
-#### Tools interoperability (e.g. Common Workflow Language)
-
----
-
-# Workflows
-
-.center[<img src="images/4_list_paired_collection_workflow.png" style="height:400px;" />]
-
----
-
-# Galaxy
-
-https://usegalaxy.org
-
-.center[<img src="images/Galaxy.png" style="height:400px;" />]
-
----
-
-# ELIXIR Galaxy Community
-
-.center[<img src="images/Galaxy_overview.png" style="height:400px;" />]
-
-Co-chairing with Björn Grüning (de.NBI, ELIXIR Germany)
-
-???
-
-* A European network of Galaxy communities
-* Visualisation in Galaxy
-* Galaxy cloud infrastructure across Europe
-* Data access & integration in Galaxy
-* Bringing Tools and Data together
-* Training
-* FAIR and Galaxy
-
----
-
-
-# Software deployment
-
-https://biocontainers.pro/
-
-.center[<img src="images/BioContainers.png" style="height:350px;" />]
-
-.center[<img src="images/bioconda.png" style="height:70px;" />]
-
----
-# Training
-
-Event | In collaboration with | Scheduled
----- | ---- | ----
-BYOD BrAPI hackathon | ELIXIR The Netherlands | May 2017
-Node services: PLAZA | VIB Bioinformatics Core | September 2017
-Bio-molecular data-mining | Kris Laukens (UAntwerpen) | September 2017
-Python for Data Processing | Geert-Jan Bex (KUL/UHasselt) | October 2017
-Data Carpentry | VIB Bioinformatics Core | November 2017
-
-### Future
-
-* Galaxy
-* FAIR data & data management
-* Software best practices
-
----
-
-# Data management WG
-
-#### Build a network of Data Stewards
-#### Provide a checklist
-#### Complementary to dmponline
-
-### Data Stewardship Wizard
-
-Work in progress:  https://dmp.fairdata.solutions
-
-.center[<img src="images/DataStewardshipWizard.png" style="height:250px;" />]
-
----
-
-.right[<img src="images/ELIXIR_logo_white_background.png" height="200px"/>]
-
-
-#### Data infrastructure for Europe’s life-science research
-
-#### Life-science gateway for the European Open Science Cloud
-
-#### Broadly applicable solutions for common challenges
-
-#### FAIR at the Core
-
-* Data
-* Metadata
-* Tools & Services
-* Analysis workflows
-* ...
-
----
-
-.right[<img src="images/ELIXIR_BELGIUM_white_background.png" height="200px"/>]
-
-# Challenge
-
-### Organize local data & metadata, compatible with daily research and publishing practices
-
----
-
-class: center, middle
-
-<img src="images/ELIXIR_BELGIUM_white_background.png"  style="height:350px;" />
-
-<img src="images/vib_tagline_pos_rgb.png" style="height:80px" />
-<img src="images/belspo.png" height="80px" />
-<img src="images/ewi.png" height="80px" />
-<img src="images/FWO_Logo_Kleur.jpg" height="80px" />
