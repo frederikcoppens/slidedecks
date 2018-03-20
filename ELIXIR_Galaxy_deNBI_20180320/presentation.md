@@ -50,9 +50,13 @@ template: title_slide
 
 # Outline
 
+### Galaxy, a platform for data-intensive analysis
+
 ### ELIXIR Galaxy Working Group to Community
 
 ### Community : planning for the future
+
+### ELIXIR Galaxy Infrastructure
 
 ---
 template: title_slide
@@ -73,16 +77,11 @@ template: title_slide
 
 ### Galaxy is available as a world-wide free-to-use online portal, and can be freely downloaded for a local installation.
 
-
-
 ---
 
 .center[<img src="images/galaxy_logo.png" style="height:100px;" />]
 
-
-.center[<img src="images/UseGalaxy.png" style="height:400px;" /> https://usegalaxy.org
-]
-
+.center[<img src="images/UseGalaxy.png" style="height:400px;" /> https://usegalaxy.org]
 
 ---
 
@@ -101,13 +100,13 @@ by Manuel Corpas, Frederik Coppens & the ELIXIR Galaxy community
 
 ---
 
-## The process
+# The process
 
 <img src="images/ELIXIR_Galaxy_recommendations.001.png" alt="ELIXR Galaxy recommendations process" height="500" class='plain'>
 
 ---
 
-## Conclusions Survey
+# Conclusions Survey
 
 * Broad usage of Galaxy in the ELIXIR community
 * Many small local instances
@@ -116,7 +115,7 @@ by Manuel Corpas, Frederik Coppens & the ELIXIR Galaxy community
 
 ---
 
-## Goals
+# Goals
 
 * Building a European / ELIXIR Galaxy community
 * Integrate ELIXIR services into Galaxy
@@ -125,7 +124,7 @@ by Manuel Corpas, Frederik Coppens & the ELIXIR Galaxy community
 
 ---
 
-## Activities on Training
+# Activities on Training
 
 * January 2017 : European Galaxy Developers, Strassbourg, France
 * May 2017 : ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use, Cambridge, UK
@@ -135,7 +134,7 @@ by Manuel Corpas, Frederik Coppens & the ELIXIR Galaxy community
 
 ---
 
-## Working Group to Community
+# Working Group to Community
 
 ### September 2017
 
@@ -200,21 +199,10 @@ template: title_slide
 
 ### ...
 
-
 ---
 template: galaxy_slide
 
 .center[<img src="images/galaxy-eu.inv.1024.png"  style="height:200px;padding:10px;align:middle;margin-top:200px;" />]
-
----
-
-# Tools & Services Registry
-
-https://bio.tools
-
-.center[<img src="images/biotools.png" style="height:400px;" />]
-
-[ReGaTE: Registration of Galaxy Tools in ELIXIR](https://www.ncbi.nlm.nih.gov/pubmed/28402416)
 
 ---
 
@@ -230,6 +218,16 @@ https://bio.tools
 * Management of multiple version
 * HPC and Cloud compatible
 * Easy to maintain
+
+---
+
+# Tools & Services Registry
+
+
+.center[<img src="images/biotools.png" style="height:400px;" /> https://bio.tools
+]
+
+.center[[ReGaTE: Registration of Galaxy Tools in ELIXIR](https://www.ncbi.nlm.nih.gov/pubmed/28402416)]
 
 ---
 
@@ -259,6 +257,12 @@ https://bio.tools
 
 ---
 
+template: title_slide
+
+# ELIXIR Galaxy Infrastructure
+
+---
+
 # Galaxy Training Infrastructure
 
 * Interactive learning platform
@@ -271,7 +275,6 @@ https://bio.tools
 * Open
 
 ---
-
 
 # Galaxy Training Infrastructure
 
@@ -308,7 +311,7 @@ template: galaxy_slide
 
 ---
 
-# usegalaxy.eu
+.center[<img src="images/useGalaxy.eu.1024.png"  style="height:70px;padding:10px;" />]
 
 * Launched March 15, 2018
 * Thousands of documented and maintained tools
@@ -316,7 +319,7 @@ template: galaxy_slide
 * 250 GB per user
 * Training capacities on demand and online (Training Infrastructure as a Service)
 
-.center[<img src="images/freiburg-galaxy.1024.png" style="height:80px;padding:10px;vertical-align:middle" /> <img src="images/denbi.png" style="height:80px;padding:10px;vertical-align:middle" />]
+.center[<img src="images/freiburg-galaxy.1024.png" style="height:160px;padding:10px;vertical-align:middle" /> <img src="images/denbi.png" style="height:80px;padding:10px;vertical-align:bottom" />]
 
 ---
 
