@@ -139,8 +139,7 @@ by Manuel Corpas, Frederik Coppens & the ELIXIR Galaxy community
 
 ### September 2017
 
-* From a temporary WG
-* To an ELIXIR Community
+* From a temporary WG to an ELIXIR Community
 * Part of the Tools platform
 * Co-chairing with
   * Björn Grüning (Freiburg, de.NBI)
@@ -315,7 +314,7 @@ template: galaxy_slide
 * Thousands of documented and maintained tools
 * Free registration
 * 250 GB per user
-* Training capacities on demand and online
+* Training capacities on demand and online (Training Infrastructure as a Service)
 
 .center[<img src="images/freiburg-galaxy.1024.png" style="height:80px;padding:10px;vertical-align:middle" /> <img src="images/denbi.png" style="height:80px;padding:10px;vertical-align:middle" />]
 
@@ -333,6 +332,16 @@ template: galaxy_slide
 
 ---
 
+# ELIXIR Galaxy Community
+
+.center[<img src="images/overview_simplified.png" style="height:400px;" />]
+
+???
+
+https://conda.io/docs/
+
+---
+
 class: center, middle
 
 # Thank you
@@ -347,3 +356,13 @@ class: center, middle
 <img src="images/excelerate.png" style="height:60px;padding:10px" />
 
 ---
+
+template: title_slide
+
+## The ELIXIR Galaxy Community
+
+### Björn Grüning, Gildas Le Corguillé, Frederik Coppens
+
+#### 12th CeBiTec Symposium - Big Data in Medicine and Biotechnology
+
+.italic[www.elixir-europe.org]
