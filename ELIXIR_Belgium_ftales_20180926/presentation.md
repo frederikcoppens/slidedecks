@@ -462,7 +462,7 @@ Work in progress:  https://dmp.fairdata.solutions
 
 # The Open Science infrastructure puzzle
 
-![:scale 100%](images/infrastructure_vision.png)
+![:scale 90%](images/infrastructure_vision.png)
 
 
 ---
