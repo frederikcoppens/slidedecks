@@ -40,7 +40,11 @@ template: title_slide
 
 ### ELIXIR Belgium
 
+### Open Science, Open Data & Research Data Management
+
 ### ELIXIR Services: from an data management point of view
+
+### The Open Science infrastructure puzzle
 
 ---
 
@@ -456,7 +460,7 @@ Work in progress:  https://dmp.fairdata.solutions
 
 ---
 
-# The Open Science puzzle
+# The Open Science infrastructure puzzle
 
 ![:scale 100%](images/infrastructure_vision.png)
 
