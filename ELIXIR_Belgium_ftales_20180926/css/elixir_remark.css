@@ -37,9 +37,9 @@ ul {
 }
 
 li::before {
-  #content: "•";
-  #color: var(--elixir-orange);
-  #padding-right: 1em;
+  content: "•";
+  color: var(--elixir-orange);
+  padding-right: 1em;
 }
 
 table {

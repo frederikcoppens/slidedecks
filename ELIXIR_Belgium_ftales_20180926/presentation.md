@@ -144,7 +144,7 @@ class: center, middle
 ---
 class: center, middle
 
-## In practice
+# In practice
 
 ![:scale 100%](images/data_in_research.png)
 
@@ -303,15 +303,13 @@ Ontology lookup service
 Identifiers.org
 
 ---
+class: center, middle
 
-# Tools & Services Registry
+# In practice
 
-https://bio.tools
+![:scale 100%](images/data_in_research.png)
 
-.center[<img src="images/biotools.png" style="height:400px;" />]
-
-???
-
+---
 # Tools Platform
 
 .quote[improve the discovery, quality and sustainability of software resources]
@@ -328,9 +326,21 @@ https://bio.tools
 
 ---
 
+# Tools & Services Registry
+
+https://bio.tools
+
+.center[<img src="images/biotools.png" style="height:400px;" />]
+
+???
+
+---
+
 # Workflows
 
-.center[<img src="images/4_list_paired_collection_workflow.png" style="height:400px;" />]
+![:scale 90%](images/4_list_paired_collection_workflow.png)
+
+workflow registry  ![](images/myexperiment.png)
 
 ---
 
@@ -338,7 +348,16 @@ https://bio.tools
 
 https://usegalaxy.org
 
-.center[<img src="images/Galaxy.png" style="height:400px;" />]
+![:scale 100%](images/Galaxy.png)
+
+---
+
+# Galaxy @ VSC
+
+Server in Beta testing on VSC Cloud infrastructure : [https://www.usegalaxy.be](https://www.usegalaxy.be)
+
+![:scale 100%](images/Galaxy_VSC.png)
+
 
 ---
 
@@ -360,7 +379,6 @@ Co-chairing with Björn Grüning (de.NBI, ELIXIR Germany) and Gildas Le Corguill
 
 ---
 
-
 # Software deployment
 
 https://biocontainers.pro/
@@ -370,12 +388,19 @@ https://biocontainers.pro/
 .center[<img src="images/bioconda.png" style="height:70px;" />]
 
 ---
+class: center, middle
 
-# Data management WG
+# In practice
+
+![:scale 100%](images/data_in_research.png)
+
+---
+
+# Data Management WG
 
 #### Build a network of Data Stewards
 #### Provide a checklist
-#### Complementary to dmponline
+#### Complementary to DMPonline
 
 ### Data Stewardship Wizard
 
@@ -387,10 +412,9 @@ Work in progress:  https://dmp.fairdata.solutions
 
 # DMPonline.be
 
-.center[<img src="images/DMPonline.png" style="height:250px;" />]
+![:scale 100%](images/DMPonline.png)
 
 ???
-
 
 * Online wizard for Data Management Plans
 * Internationally used open source software
@@ -404,7 +428,7 @@ Work in progress:  https://dmp.fairdata.solutions
 
 # FAIRDOMHub
 
-.center[<img src="images/FAIRDOMHub.png" style="height:250px;" />]
+![:scale 100%](images/FAIRDOMHub.png)
 
 ???
 
@@ -417,7 +441,6 @@ Work in progress:  https://dmp.fairdata.solutions
 * Work Package in FWO IRI call ELIXIR Belgium
 * EWI project ‘Implementing EOSC: ESFRI driven Open Science’
 
-
 ---
 
 # The Open Science puzzle
@@ -428,12 +451,14 @@ Work in progress:  https://dmp.fairdata.solutions
 * Infrastructure to
   - Store
   - Analyse
+  - Publish / share
+* Data Management Platform
 
 ---
 
 # The Open Science puzzle
 
-.center[<img src="images/infrastructure_vision.png" style="height:400px;" />]
+![:scale 100%](images/infrastructure_vision.png)
 
 
 ---
