@@ -447,7 +447,7 @@ Work in progress:  https://dmp.fairdata.solutions
 
 ---
 
-# The Open Science puzzle
+# The Open Science infrastructure puzzle
 
 * Data: input, intermediate & results
 * Tools & workflows
@@ -491,6 +491,22 @@ Work in progress:  https://dmp.fairdata.solutions
 # Challenge
 
 ### Organize local data & metadata, compatible with daily research and publishing practices
+
+---
+
+# Upcoming Training ELIXIR Belgium
+
+### Public proteomics data reprocessing and the Tabloid Proteome
+
+#### 10 October 2018, from 9h30 to 17h00, Ghent
+
+* Introduction to Public Proteomics resources and tools
+* Practical: Reprocessing MS data from PRIDE
+* Tabloid Proteome: a use case of public proteomics data re-use
+* Practical: Investigating protein association using Tabloid Proteome database
+
+#### https://www.elixir-belgium.org/training
+#### https://tess.elixir-europe.org/ search 'proteomics'
 
 ---
 
