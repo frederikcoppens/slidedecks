@@ -36,7 +36,7 @@ ul {
   margin: 0;
 }
 
-li::before {
+ul li::before {
   content: "•";
   color: var(--elixir-orange);
   padding-right: 1em;
