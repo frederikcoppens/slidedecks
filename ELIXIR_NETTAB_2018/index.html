@@ -6,9 +6,14 @@
     <link rel="stylesheet" href="css/elixir_remark.css">
   </head>
   <body>
-    <script src="remark-latest.min.js">
-    </script>
+    <script src="remark-latest.min.js"></script>
+    
     <script>
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+
       var slideshow = remark.create({
         sourceUrl: 'presentation.md',
         ratio: '4:3',
