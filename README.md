@@ -17,4 +17,4 @@ Slides by Frederik Coppens
 * [TeC F2F Paris 2017](ELIXIR_TeC_20171011)
 * [Galaxy User Conference Freiburg 2018](ELIXIR_Galaxy_Freiburg_20180315)
 * [12th CeBiTec Symposium - Big Data in Medicine and Biotechnology, Bielefeld 2018](ELIXIR_Galaxy_deNBI_20180320)
-* NETTAB Genoa 2018 
+* [NETTAB Genoa 2018](ELIXIR_NETTAB_2018)
