@@ -441,7 +441,7 @@ template: title_slide
 
 ---
 
-# Infrastructure for Open Science
+## Infrastructure for Open Science
 
 * Data: input, intermediate & results
 * Tools & workflows
@@ -454,24 +454,21 @@ template: title_slide
 
 ---
 
-# Infrastructure for Open Science
+## Infrastructure for Open Science
 
-![:scale 110%](infrastructure.png)
-
-
+![:scale 100%](images/infrastructure_vision.png)
 
 ---
 
-.right[<img src="images/ELIXIR_logo_white_background.png" height="200px"/>]
+.right[<img src="images/ELIXIR_logo_white_background.png" height="150px"/>]
 
+### Data infrastructure for Europe’s life-science research
 
-#### Data infrastructure for Europe’s life-science research
+### Life-science gateway for the European Open Science Cloud
 
-#### Life-science gateway for the European Open Science Cloud
+### Broadly applicable solutions for common challenges
 
-#### Broadly applicable solutions for common challenges
-
-#### FAIR at the Core
+### FAIR at the Core
 
 ---
 
