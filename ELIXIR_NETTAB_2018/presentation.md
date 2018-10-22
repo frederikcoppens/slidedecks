@@ -456,7 +456,7 @@ template: title_slide
 
 ## Infrastructure for Open Science
 
-![:scale 100%](images/infrastructure_vision.png)
+![:scale 80%](images/infrastructure_vision.png)
 
 ---
 
