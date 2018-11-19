@@ -10,7 +10,7 @@ background-size: contain
 
 <div style="height:250px"></div>
 
-<img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
+<img src="../shared/logos/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
 ---
 layout: true
@@ -22,7 +22,7 @@ background-color: #2c3143
 
 layout: true
 
-<img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
+<img src="../shared/logos/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
 ---
 template: title_slide
