@@ -27,7 +27,7 @@ layout: true
 ---
 template: title_slide
 
-## [ELIXIR Resources for Interoperability](https://plan.core-apps.com/pag_2019/abstract/8d1a2a44-8bdc-42f3-90ab-90637edc71cf
+## [ELIXIR Resources for Interoperability](https://plan.core-apps.com/pag_2019/abstract/8d1a2a44-8bdc-42f3-90ab-90637edc71cf)
 
 ### Frederik Coppens
 

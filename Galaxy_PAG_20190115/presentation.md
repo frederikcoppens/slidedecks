@@ -29,7 +29,7 @@ template: title_slide
 
 template: title_slide
 
-## [Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2019/abstract/bd1ddd10-af82-4bca-84c0-ff8fe7c5c46a
+## [Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2019/abstract/bd1ddd10-af82-4bca-84c0-ff8fe7c5c46a)
 
 ### Frederik Coppens
 
