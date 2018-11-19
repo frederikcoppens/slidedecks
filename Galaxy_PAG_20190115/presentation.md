@@ -47,3 +47,9 @@ template: title_slide
 # To do...
 
 January 15 @ 16h, 25 minutes
+
+---
+
+<img src="../shared/logos/ELIXIR_logo_white_background.png" height="50%"/>
+
+include Excelerate logos etc.
