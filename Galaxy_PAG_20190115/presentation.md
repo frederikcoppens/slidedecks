@@ -3,7 +3,7 @@ name: title_slide
 layout: true
 class: right, middle
 
-background-image: url("images/ELIXIR_background.png")
+background-image: url("../shared/images/ELIXIR_background.png")
 background-position: top
 background-repeat: no-repeat
 background-size: contain
