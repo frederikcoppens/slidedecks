@@ -25,20 +25,21 @@ h3 {
 }
 
 li {
-  line-height: 150%;
+  line-height: 120%;
   padding-left: 30px;
   text-indent: -.7em;
 }
 
 ul li ul {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 ul {
   padding: 0;
   #list-style-type: none ;
   margin: 0;
-  font-size: 150%;
+  padding-left: 30px;
+  font-size: 100%;
 }
 
 
