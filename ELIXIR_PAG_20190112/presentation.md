@@ -200,7 +200,7 @@ class: center, middle
 
 ### BrAPI @ PAG : Genotyping data structures
 
-### Sunday January 13th @ 13h Crescent room
+### Sunday January 13th @ 1PM Crescent room
 
 ???
 
@@ -309,7 +309,7 @@ Leads: Björn Grüning, Gildas Le Corguillé, Frederik Coppens
 
 ### PAGXXVII Session on Galaxy
 
-### January 15th, 16h
+### Tuesday January 15th @ 4PM, California
 
 ???
 
