@@ -57,24 +57,26 @@ template: galaxy_title_slide
 
 ## Galaxy ?
 
-
-<p class=highlight style="font-size:150%;">
+<p class=highlight style="font-size:150%;text-align:left;">
 <img src="images/Twitter_Logo_Blue.png" height="70px" style="vertical-align:middle;"/>
 #usegalaxy @galaxyproject
 </p>
 
 ---
-
 template: galaxy_slide
 class: center, middle
 
-## Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
+.title[
+## Galaxy is an .highlight[open], web-based platform for .highlight[accessible], .highlight[reproducible], and .highlight[transparent] computational biomedical research.
+]
 
 ---
 template: galaxy_slide
 class: center, middle
 
-## Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
+.title[
+## Galaxy is an .highlight[open], web-based platform for .highlight[accessible], .highlight[reproducible], and .highlight[transparent] computational biomedical research.
+]
 
 <img src="images/fair_white.png" height="20%" style="position:absolute;left:12%;bottom:5%;" />
 
@@ -86,8 +88,9 @@ class: center, middle
 template: galaxy_slide
 class: center, middle
 
-## Galaxy enables non-technical users to leverage bioinformatics tools **themselves** to analyse their data and share results
-
+.title[
+## Galaxy enables non-technical users to leverage bioinformatics tools .highlight[themselves] to analyse their data and share results
+]
 ???
 
 * workflow management system
@@ -103,12 +106,13 @@ class: center, middle
 
 ![:scale 100%](images/galaxy_userinterface.png)
 
-???
-
-usegalaxy.org
-
 ---
 
+# Galaxy User Interface 19.01
+
+![:scale 100%](images/galaxy_userinterface1901.png)
+
+---
 # Galaxy Workflow builder
 
 ![:scale 100%](images/galaxy_workflow.png)
@@ -139,7 +143,11 @@ class: center, middle
 * Academic clouds
 * Containers or Virtual Machines
 
-## [ galaxyproject.org/use ](https://galaxyproject.org/use/)
+.banner[
+
+## [ .highlight[galaxyproject.org/use] ](https://galaxyproject.org/use/)
+
+]
 
 ???
 
@@ -158,20 +166,29 @@ GalaxyP_logo
 
 .center[[![:scale 50%](images/GitHub_Logo.png)](https://github.com/galaxyproject/galaxy)
 
-#### git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git
+.remark-code[git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git]
 
-### Galaxy is open source can be freely downloaded for a local installation.
-]
+.banner[
+
+### Galaxy is .highlight[open source] and can be .highlight[freely downloaded] for a local installation.
+]]
 
 ---
+class: center
+
 # Galaxy in the cloud
 
-* Genomics Virtual Lab
+![:scale 20%](images/openstack-logo512.png)
+![:scale 30%](images/OpenNebulaLogo.png)
+</br>
+![:scale 30%](images/GlobusGenomics.png)
+![:scale 30%](images/AWSLogo400.png)
 
-## [ launch.usegalaxy.org ](https://launch.usegalaxy.org)
+.banner[
+### [ launch.usegalaxy.org ](https://launch.usegalaxy.org)
 
-## [ galaxyproject.org/cloud ](https://galaxyproject.org/cloud/)
-
+### [ galaxyproject.org/cloud ](https://galaxyproject.org/cloud/)
+]
 
 
 ???
@@ -187,28 +204,108 @@ template: galaxy_title_slide
 ## The Galaxy ecosystem
 
 ---
+# The Galaxy ecosystem
+
+![:scale 100%](images/ecosystem_blank.png)
+
+
+???
+![:scale 100%](images/galaxy_universe.png)
+
+---
+# The Galaxy ecosystem
+
+![:scale 100%](images/ecosystem_galaxy.png)
+
+
+---
+
+.center[
+[![:scale 50%](images/galaxy-toolshed-1000.png)](https://toolshed.g2.bx.psu.edu)
+
+.banner[
+### 6541 tools wrapped for Galaxy
+
+]
+
+<p style="vertical-align:middle">
+![:scale 30%](images/iuc-logo-trans.png)
+<span style="width: 50px;display: inline-block"></span>
+[![:scale 50%](images/planemo-logo.png)](https://planemo.readthedocs.org/)
+</p>
+
+## [toolshed.g2.bx.psu.edu](https://toolshed.g2.bx.psu.edu)
+
+]
+
+---
+
+# Tools & Containers
+
+![:scale 100%](images/tools_for_galaxy.png)
+.right[
+Permanent caching [![:scale 20%](images/cpc-plain-small.png)](https://github.com/galaxyproject/cargo-port)
+]
+---
+
+# Galaxy subcommunities
+
+![:scale 100%](images/tools_eu.png)
+
+---
+
+# Reference data
+
+* genome sequences
+* annotations
+* indices for common tools
+* automation through [ephemeris](https://ephemeris.readthedocs.org/)
+
+### 6TB reference data available on CVMFS
+
+.banner[
+### Coming soon : improved plant reference data
+]
+
+---
+
+# Accessing compute resources
+
+* Shared storage or streaming
+* Configuration
+  - Tool
+  - User
+  - Input data
+
+.banner[
+### .highlight[Virtual Galaxy Compute Nodes]
+
+### [github.com/usegalaxy-eu/vgcn](https://github.com/usegalaxy-eu/vgcn)
+]
+
+.center[Powered by [![:scale 40%](images/pulsar_transparent.png)](https://pulsar.readthedocs.io)]
+
+---
 # ELIXIR Galaxy Community
 
-![:scale 100%](images/Galaxy_overview.png)
+.center[![:scale 80%](images/Galaxy_overview.png)]
+
+.banner[
+### Part of the European Open Science Cloud through EOSC-Life project
+]
 
 ---
 
-# usegalaxy.*
+# Also for bioinformaticians
 
----
-
-# Technologies
-
-* BioConda
-* Containers
-* CVMFS
-* GCVN
 * API
   - RESTFUL
-  - bioblend (python)
-  - bioblend4php
-* SDKs: Planemo Ephemeris
-* Pulsar
+  - Python [bioblend](https://bioblend.readthedocs.io/)
+  - PHP : [blend4php](https://github.com/galaxyproject/blend4php)
+  - CLI : [parsec](https://github.com/galaxy-iuc/parsec/)
+* SDKs
+  - [![:scale 20%](images/planemo-logo.png)](https://planemo.readthedocs.org/)
+  - [Ephemeris](https://ephemeris.readthedocs.org/)
 
 ---
 template: galaxy_title_slide
@@ -223,53 +320,80 @@ template: galaxy_title_slide
 
 ---
 
-# Forum
+.center[![:scale 30%](images/galaxy-web-search.png)]
+
+![:scale 100%](images/galaxyproject_search.png)
 
 ---
-
+# Galaxy Community Hub
+![:scale 100%](images/galaxyproject_intro.png)
+---
 # Gitter Chat
+.center[![:scale 80%](images/galaxyproject_gitter.png)]
+.banner[
+### [gitter.im/galaxyproject/Lobby](https://gitter.im/galaxyproject/Lobby)
+]
+---
+.center[![:scale 100%](images/galaxyproject_help.png)]
+
+.banner[
+### [help.galaxyproject.org](https://help.galaxyproject.org)
+]
+---
+## Mailing lists
+
+.center[![:scale 60%](images/galaxyproject_mailinglist.png)]
+
+.banner[
+### [galaxyproject.org/mailing-lists/](https://galaxyproject.org/mailing-lists/)
+]
 
 ???
 
-on gitter
-integrated
+  - [galaxy-announce](http://announce.list.galaxyproject.org/)
+  - [galaxy-training](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/)
+  - [galaxy-dev](http://dev.list.galaxyproject.org/)
+  - ...
 
 ---
 
-# Galaxy Community Hub
+.center[![:scale 20%](images/GalaxyNews.png)]
 
-![:scale 100%](images/galaxyproject_intro.png)
+![:scale 100%](images/galaxyproject_news.png)
 
+.banner[
+### [galaxyproject.org/news/](https://galaxyproject.org/news/)
+]
 ---
 
-## Mailing lists
+![:scale 100%](images/galaxyproject_blog.png)
 
-## Galactic Search
+.banner[
+### [galaxyproject.org/blog/](https://galaxyproject.org/blog/)
+]
 
-## News Feed
-
-## Blog
-
+---
 ## Galaxy Events
+
+.center[![:scale 100%](images/galaxyproject_events.png)]
+
+.banner[
+### [galaxyproject.org/events/](https://galaxyproject.org/events/)
+]
 
 ---
 class: center
 
-[![:scale 40%](images/GTNLogoTrans1000.png)](https://training.galaxyproject.org)
-![:scale 70%](images/galaxy_training_zoom.png)
+[![:scale 30%](images/GTNLogoTrans1000.png)](https://training.galaxyproject.org)
+.center[![:scale 70%](images/galaxy_training_zoom.png)]
 
-[training.galaxyproject.org](https://training.galaxyproject.org)
-
----
-
-background-image: url("images/general_flyer.png")
-background-position: top
-background-repeat: no-repeat
-background-size: contain
+.banner[
+### [training.galaxyproject.org](https://training.galaxyproject.org)
+]
 
 ???
 
-https://github.com/usegalaxy-eu/gcc2019/blob/master/com/general_flyer.png
+![:scale 100%](images/training_material.png)
 
 ---
 template: galaxy_title_slide
@@ -283,7 +407,8 @@ template: galaxy_title_slide
 .center[
 ![:scale 45%](images/galaxy_team1.png)
 ![:scale 45%](images/galaxy_team2.png)
-
+]
+.banner[
 ## [galaxyproject.org/galaxy-team](https://galaxyproject.org/galaxy-team)
 ]
 
@@ -313,3 +438,18 @@ class: center, middle
 <p style="position:absolute;left:28%;right:2%;bottom:2%;font-size:50%;text-align:left">
 ELIXIR-EXCELERATE is funded by the European Commission within the Research Infrastructures programme of H2020, grant agreement number 676559. The  sole  responsibility  for  the  content  of  this  presentation  lies  with  ELIXIR.  It  does  not  necessarily  reflect  the  opinion  of  the  European  Union and the European Commission is not responsible for any use than may be made of the information contained therein.
 </p>
+
+---
+template: galaxy_slide
+
+
+background-image: url("images/general_flyer_white.png")
+background-position: top
+background-repeat: no-repeat
+background-size: contain
+
+---
+template: galaxy_slide
+class: center, middle
+
+![:scale 100%](images/galaxy_project_logo_white.png)
