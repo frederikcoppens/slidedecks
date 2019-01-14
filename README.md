@@ -22,4 +22,4 @@ Slides by Frederik Coppens
 ## Galaxy
 
 * [Galaxy User Conference Freiburg 2018](ELIXIR_Galaxy_Freiburg_20180315)
-* PAGXVII Galaxy
+* [PAGXVII Galaxy introduction](Galaxy_PAG_20190115)
