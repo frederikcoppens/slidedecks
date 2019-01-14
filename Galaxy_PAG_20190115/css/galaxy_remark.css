@@ -2,7 +2,8 @@
   --galaxy-darkblue: rgb(44,49,67); /* #2c3143 */
   --galaxy-grey: rgb(88,88,88);
   --galaxy-lightblue: rgb(64,80,128); /* #405080 */
-  --galaxy-yellow: rgb(290,190,6)
+  --galaxy-yellow: rgb(256,190,6);
+  --galaxy-white: rgb(245,245,245);
   /*
   $navbar-inverse-bg: rgb(44, 49, 67);
   background-color: #f5f5f5; white smoke
@@ -22,6 +23,11 @@
   */
 }
 
+html, body {
+  /* for page wide banner */
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Corbel", Helvetica, sans-serif;
   color: var(--galaxy-gray);
@@ -32,10 +38,15 @@ h1, h2, h3, h4 {
   text-transform: none;
   font-weight: normal;
   color: var(--galaxy-gray);
+  text-align: center;
 }
 
 h2 {
   color: var(--galaxy-yellow);
+}
+
+.title h2 {
+  color: var(--galaxy-white);
 }
 
 h3 {
@@ -47,6 +58,7 @@ li {
   line-height: 150%;
   padding-left: 30px;
   text-indent: -.7em;
+  margin-left: 5%;
 }
 
 ul li ul {
@@ -95,6 +107,20 @@ tr, th {
   font-style: italic;
   align: justify;
   padding: 20px;
+}
+
+/* for page wide banner */
+.banner {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  background: MidnightBlue;
+  text-align: center;
+  color: var(--galaxy-white);
+}
+
+.banner h1, .banner h2, .banner h3 {
+  color: var(--galaxy-white);
 }
 
 .remark-code, .remark-inline-code {
