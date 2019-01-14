@@ -47,7 +47,6 @@ template: title_slide
 
 ???
 
-
 [https://frederikcoppens.github.io/slidedecks/](https://frederikcoppens.github.io/slidedecks/)
 
 January 15 @ 16h, 25 minutes
@@ -226,15 +225,14 @@ template: galaxy_title_slide
 .banner[
 ### 6541 tools wrapped for Galaxy
 
+### [toolshed.g2.bx.psu.edu](https://toolshed.g2.bx.psu.edu)
+
 ]
 
-<p style="vertical-align:middle">
 ![:scale 30%](images/iuc-logo-trans.png)
 <span style="width: 50px;display: inline-block"></span>
 [![:scale 50%](images/planemo-logo.png)](https://planemo.readthedocs.org/)
-</p>
 
-## [toolshed.g2.bx.psu.edu](https://toolshed.g2.bx.psu.edu)
 
 ]
 
@@ -300,7 +298,7 @@ Permanent caching [![:scale 20%](images/cpc-plain-small.png)](https://github.com
 
 * API
   - RESTFUL
-  - Python [bioblend](https://bioblend.readthedocs.io/)
+  - Python : [bioblend](https://bioblend.readthedocs.io/)
   - PHP : [blend4php](https://github.com/galaxyproject/blend4php)
   - CLI : [parsec](https://github.com/galaxy-iuc/parsec/)
 * SDKs
