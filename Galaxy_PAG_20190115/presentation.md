@@ -56,7 +56,7 @@ template: galaxy_title_slide
 
 ## Galaxy ?
 
-<p class=highlight style="font-size:150%;text-align:left;">
+<p class=highlight style="font-size:150%;text-align:center;">
 <img src="images/Twitter_Logo_Blue.png" height="70px" style="vertical-align:middle;"/>
 #usegalaxy @galaxyproject
 </p>
@@ -169,7 +169,9 @@ GalaxyP_logo
 
 .banner[
 
-### Galaxy is .highlight[open source] and can be .highlight[freely downloaded] for a local installation.
+### Galaxy is .highlight[open source] and can be .highlight[freely downloaded] for a local installation
+
+### [.highlight[galaxyproject.org/admin/get-galaxy]](https://galaxyproject.org/admin/get-galaxy/)
 ]]
 
 ---
@@ -426,9 +428,9 @@ class: center, middle
 ![:scale 20%](images/ewi.png)
 ![:scale 20%](images/vib_tagline_pos_rgb.png)
 
-### 5 ELIXIR Belgium vacancies open next week
+### 5 ELIXIR Belgium vacancies open !
 
-[www.vib.be/jobs](http://www.vib.be/jobs)
+[www.vib.be/jobs](http://www.vib.be/jobs) Ghent - Plant Systems Biology
 
 <img src="images/excelerate.png" height="8%" style="position:absolute;left:11%;bottom:2%;" />
 <img src="images/europe.png" height="8%" style="position:absolute;left:1%;bottom:2%;" />
@@ -439,7 +441,6 @@ ELIXIR-EXCELERATE is funded by the European Commission within the Research Infra
 
 ---
 template: galaxy_slide
-
 
 background-image: url("images/general_flyer_white.png")
 background-position: top
