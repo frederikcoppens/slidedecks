@@ -23,3 +23,4 @@ Slides by Frederik Coppens
 
 * [Galaxy User Conference Freiburg 2018](ELIXIR_Galaxy_Freiburg_20180315)
 * [PAGXVII Galaxy introduction](Galaxy_PAG_20190115)
+* [VIB Interest Group meeting January 2019](Galaxy_VIB_20190125)
