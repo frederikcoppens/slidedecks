@@ -402,7 +402,7 @@ class: center
 ### [training.galaxyproject.org](https://training.galaxyproject.org)
 ]
 
-???
+---
 
 ![:scale 100%](images/training_material.png)
 
