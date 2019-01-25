@@ -45,6 +45,8 @@ template: title_slide
 
 .italic[[www.galaxyproject.org](https://www.galaxyproject.org)]
 
+.center[.highlight[[http://frederikcoppens.github.io/slidedecks](http://frederikcoppens.github.io/slidedecks/Galaxy_VIB_20190125)] Galaxy_VIB_20190125]
+
 ---
 template: galaxy_title_slide
 
@@ -184,9 +186,24 @@ https://launch.usegalaxy.org/
 
 ---
 
-## usegalaxy.be
+# usegalaxy.be
 
 ![:scale 100%](images/usegalaxy_be.png)
+
+---
+
+# Vlaams Supercomputer Center
+
+* HPC since 2004
+* 2018: 30 million euro investment over 4 years
+  - HPC: 20M€
+  - Cloud: 10M€
+    - Compute
+    - Storage (analysis)
+
+.banner[
+### .highlight[In testing phase]
+]
 
 ---
 template: galaxy_title_slide
@@ -301,7 +318,6 @@ Permanent caching [![:scale 20%](images/cpc-plain-small.png)](https://github.com
 
 ![:scale 100%](images/galaxy_universe.png)
 
-
 ---
 template: galaxy_title_slide
 
@@ -412,6 +428,34 @@ template: galaxy_title_slide
 # The community
 
 ![:scale 100%](images/galaxyproject_contributors.png)
+
+---
+
+# [European Open Science Cloud](https://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud)
+
+* Attempt to unify (research) data ecosystem in Europe
+  * Not only European
+  * Can be private
+  * Beyond Science
+  * Not a cloud
+* Life Sciences : EOSC-Life H2020 project
+* Align life science clouds & services
+* ELIXIR Belgium: implementing on VSC
+
+---
+
+# European Open Science Cloud: EOSC-Life
+
+- Workflow systems supported
+  - Galaxy
+  - NextFlow / Snakemake ?
+- Packaging
+  - conda
+  - containers: docker, singularity
+- Execution systems
+  - Galaxy
+  - Kubernetes
+  - GA4GH TES - WES
 
 ---
 class: center, middle
