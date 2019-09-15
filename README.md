@@ -10,6 +10,7 @@ Slides by Frederik Coppens
 * [ELIXIR SME event Brussels October 2017](ELIXIR_Belgium_SME_20171009)
 * [fig share fest Gent November 2017](ELIXIR_Belgium_figshare_20171116)
 * [f-tales Gent September 2018](ELIXIR_Belgium_ftales_20180926)
+* [ELIXIR Belgium All Hands 2019 - usegalaxy.be](ELIXIR_Belgium_usegalaxy_20190916)
 
 ## ELIXIR
 
