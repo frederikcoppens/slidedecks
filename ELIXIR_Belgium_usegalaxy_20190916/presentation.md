@@ -106,16 +106,13 @@ class: center, middle
 ![:scale 100%](images/galaxy_workflow.png)
 
 ---
+class: center
 
-.center[
 [![:scale 50%](images/galaxy-toolshed-1000.png)](https://toolshed.g2.bx.psu.edu)
 
-.banner[
 ### 7296 tools wrapped for Galaxy
 
 ### [toolshed.g2.bx.psu.edu](https://toolshed.g2.bx.psu.edu)
-
-]
 
 ![:scale 20%](images/iuc-logo-trans.png)
 <span style="width: 25px;display: inline-block"></span>
@@ -123,17 +120,14 @@ class: center, middle
 <span style="width: 25px;display: inline-block"></span>
 [![:scale 35%](images/bioconda.png)](https://bioconda.github.io/)
 
-]
-
 ---
 class: center
 
 [![:scale 30%](images/GTNLogoTrans1000.png)](https://training.galaxyproject.org)
-.center[![:scale 70%](images/galaxy_training_zoom.png)]
 
-.banner[
+![:scale 70%](images/galaxy_training_zoom.png)]
+
 ### [training.galaxyproject.org](https://training.galaxyproject.org)
-]
 
 ???
 
@@ -141,17 +135,15 @@ class: center
 
 
 ---
+class: center
+
 # Get Galaxy
 
-.center[[![:scale 50%](images/GitHub_Logo.png)](https://github.com/galaxyproject/galaxy)
+[![:scale 50%](images/GitHub_Logo.png)](https://github.com/galaxyproject/galaxy)
 
 .remark-code[git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git]
 
-.banner[
-
 ## Galaxy is .highlight[open source] and can be .highlight[freely downloaded] for a local installation
-
-]]
 
 ---
 
