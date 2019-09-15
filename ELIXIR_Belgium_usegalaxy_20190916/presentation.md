@@ -26,7 +26,8 @@ layout: true
 ---
 template: title_slide
 
-## UseGalaxy.be: platform for data-intensive research
+## UseGalaxy.be
+## platform for data-intensive research
 
 ### Frederik Coppens
 
@@ -34,12 +35,12 @@ template: title_slide
 
 ---
 
-# European infrastructure for biological information
+# ELIXIR focus on Services
 
 <span></span> | <span></span>
 ---- | ----
-![:scale 40%](images/train.png) | .highlight[Domain specific Services]
-![:scale 40%](images/railroad.png) | Storage Compute Network
+<img src="images/train.png" style="width:250px;" /> | .highlight[Domain specific Services]
+<img src="images/railroad.png" style="width:250px;" /> | Storage - Compute - Network
   |
 ???
 
@@ -105,70 +106,6 @@ class: center, middle
 ![:scale 100%](images/galaxy_workflow.png)
 
 ---
-# Get Galaxy
-
-.center[[![:scale 50%](images/GitHub_Logo.png)](https://github.com/galaxyproject/galaxy)
-
-.remark-code[git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git]
-
-.banner[
-
-## Galaxy is .highlight[open source] and can be .highlight[freely downloaded] for a local installation
-
-]]
-
----
-
-# usegalaxy.*
-
-### Global collaboration
-
-  #### usegalaxy.eu (Freiburg, Germany)
-  #### usegalaxy.org (US)
-  #### usegalaxy.org.au (Australia)
-
-### Facilitate reproducible analyses
-  - Common core set of tools
-  - Common reference data
-
----
-template: title_slide
-
-## UseGalaxy.be: platform for data-intensive research
-
-
----
-
-# usegalaxy.*
-
-### Global collaboration
-
-  #### usegalaxy.eu (Germany)
-  #### usegalaxy.org (US)
-  #### usegalaxy.org.au (Australia)
-  #### .highlight[usegalaxy.be] (Belgium)
-
-### Facilitate reproducible analyses
-  - Common core set of tools
-  - Common reference data
-
----
-class: center, middle
-
-![:scale 100%](images/usegalaxy_be.png)
-
----
-
-# Reference data
-
-#### Genome sequences
-#### Annotations
-#### Indices for common tools
-#### Automation through [ephemeris](https://ephemeris.readthedocs.org/)
-
-### Plant genomes provided by ELIXIR Belgium
-
----
 
 .center[
 [![:scale 50%](images/galaxy-toolshed-1000.png)](https://toolshed.g2.bx.psu.edu)
@@ -189,24 +126,6 @@ class: center, middle
 ]
 
 ---
-class: center, middle
-
-![:scale 80%](images/usegalaxy.be.png)
-
-
-#### Thousands of documented and maintained tools
-
-#### Free to use
-
-#### 50 GB for any registered users (5GB for unregistered users)
-
-#### Real time status on https://usegalaxy.be/stats/
-
-### Requests  ?
-
-## galaxy@elixir-belgium.org
-
----
 class: center
 
 [![:scale 30%](images/GTNLogoTrans1000.png)](https://training.galaxyproject.org)
@@ -220,21 +139,125 @@ class: center
 
 ![:scale 100%](images/training_material.png)
 
+
+---
+# Get Galaxy
+
+.center[[![:scale 50%](images/GitHub_Logo.png)](https://github.com/galaxyproject/galaxy)
+
+.remark-code[git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git]
+
+.banner[
+
+## Galaxy is .highlight[open source] and can be .highlight[freely downloaded] for a local installation
+
+]]
+
 ---
 
-# Community
+# usegalaxy.*
 
-![:scale 100%](images/contributors_iuc.png)
-![:scale 100%](images/contributors_training.png)
+### Global collaboration
+
+  #### usegalaxy.org (US)
+  #### usegalaxy.eu (Freiburg, Germany)
+  #### usegalaxy.org.au (Australia)
+
+### Facilitate reproducible analyses across sites
+  - Common core set of tools
+  - Common reference data
+
+---
+template: title_slide
+
+## UseGalaxy.be
+## platform for data-intensive research
+
+---
+
+# usegalaxy.*
+
+### Global collaboration
+
+  #### usegalaxy.eu (Germany)
+  #### usegalaxy.org (US)
+  #### usegalaxy.org.au (Australia)
+  #### .highlight[usegalaxy.be] (Belgium)
+
+### Facilitate reproducible analyses across sites
+  - Common core set of tools
+  - Common reference data
+
+---
+class: center, middle
+
+![:scale 100%](images/usegalaxy_be.png)
+
+---
+
+# Why usegalaxy.be ?
+
+### Broadly used: ELIXIR Galaxy Community
+
+### Contribute to a global collaboration
+
+* Build on the community effort
+* Share the burden
+
+### Dedicated compute resources ![:scale 40%](images/VSC.png)
+
+### Can be tailored to our specific needs
+
+---
+
+# Reference data
+
+#### Genome sequences
+#### Annotations
+#### Indices for common tools
+#### Automation through [ephemeris](https://ephemeris.readthedocs.org/)
+
+### Plant genomes provided by ELIXIR Belgium
+
+
+---
+class: middle, center
+
+# Beyond Life Sciences
+
+#### Genomics, Proteomics, Metabolomics, Epigenetics, ...
+#### Machine learning
+#### Natural Language Processing
+#### Ecology
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U6mu3QrK9Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---
+class: center, middle
+
+![:scale 80%](images/usegalaxy.be.png)
+
+#### Thousands of documented and maintained tools
+
+#### Free to use
+
+#### 50 GB for registered users (5GB for unregistered users)
+
+#### Real time status on https://usegalaxy.be/stats/
+
+### Requests ? Encounter issues ?
+
+## galaxy@elixir-belgium.org
 
 ---
 
 # Future plans
 
-### Provenance
-### Expand portfolio of tools
-### Integration with data management platforms
-### Further facilitate interoperability & re-use
+### Provenance: tracking of metadata
+### Expand portfolio of tools, workflows, data, ...
+### Integration with data management platform
+### Further improve usability & interoperability
 
 ---
 
@@ -242,7 +265,7 @@ class: center
 
 <span></span> | <span></span>
 ---- | ----
-<img src="images/ELIXIR_BELGIUM_white_background.png" style="width:180px;" />   | <ul><li>**Ignacio Eguinoa**</li> <li>Bert Droesbeke</li> <li>Michiel Van Bel</li></ul>
+<img src="images/ELIXIR_BELGIUM_white_background.png" style="width:160px;" /> <span style="width:30px;"> </span> <img src="images/vib_tagline_pos_rgb.png" style="width:160px;" />  | <ul><li>**Ignacio Eguinoa**</li> <li>Bert Droesbeke</li> <li>Michiel Van Bel</li></ul>
 <img src="images/useGalaxy.eu.1024.png" style="width:250px;" />   | <ul><li>**Björn Grüning**</li> <li> Helena Rasche</li> <li>Bérénice Batut</li></ul>
 <img src="images/galaxy_project_logo.png" style="width:250px;" />   | <ul><li>James Taylor</li> <li>Anton Nekrutenko</li></ul>
 <img src="images/VSC.png" style="width:250px;" />   | <ul><li>Álvaro Simon Garcia</li> <li>Stijn De Weirdt</li></ul>
@@ -252,4 +275,28 @@ class: center, middle
 
 ![:scale 45%](images/FWO_Logo_Kleur.jpg)
 ![:scale 45%](images/ewi.png)
-![:scale 45%](images/vib_tagline_pos_rgb.png)
+
+---
+
+
+# Global Galaxy Community
+
+![:scale 100%](images/contributors_iuc.png)
+![:scale 100%](images/contributors_training.png)
+
+---
+class: center, middle
+
+![:scale 80%](images/usegalaxy.be.png)
+
+#### Thousands of documented and maintained tools
+
+#### Free to use
+
+#### 50 GB for registered users (5GB for unregistered users)
+
+#### Real time status on https://usegalaxy.be/stats/
+
+### Requests ? Encounter issues ?
+
+## galaxy@elixir-belgium.org
