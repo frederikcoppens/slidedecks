@@ -61,10 +61,8 @@ https://www.esfri.eu
 * Funding of ESFRIs on Flemish Roadmap
 * Application to enter the Flemish Roadmap
 
-### General remark from reviewers
-
 .italic[
-#### The Science Commission identified a number research infrastructures in Flanders that include data platforms and that would benefit from closer co-ordination with the ELIXIR node
+### The Science Commission identified a number research infrastructures in Flanders that include data platforms and that would benefit from closer co-ordination with the ELIXIR node
 ]
 
 ---
@@ -85,9 +83,12 @@ https://www.esfri.eu
 
 #### Build expertise and knowledge across ESFRIs
 #### Expedite adoption of the VSC cloud resources by other scientific domains
-#### Explore synergy in development of research infrastructure and explore related collaborations within Flanders
+#### Explore synergy in development of research infrastructure
+#### Explore related collaborations within Flanders
 
-### Provide services to their communities within the context of the European Open Science Cloud
+#### To allow ESFRIs to provide services to their communities within the context of the European Open Science Cloud (EOSC)
+
+#### Proof-of-Concept for the (to be established) Flemish Open Science Board (FOSB)
 
 ---
 
@@ -111,7 +112,7 @@ https://www.esfri.eu
 ---- | ----
 [<img src="images/ELIXIR_logo_white_background.png" style="width:120px;"> </img>](https://www.elixir-europe.org) | A distributed infrastructure for life-science information
 [![:scale 30%](images/anaee.png)](https://www.anaee.comg) |  Infrastructure for Analysis and Experimentation on Ecosystems
-[![:scale 30%](images/euro_bio_imaging.jpg)](http://www.eurobioimaging.eu) |  European Research Infrastructure for Imaging distributed
+[![:scale 40%](images/euro_bio_imaging.jpg)](http://www.eurobioimaging.eu) |  European Research Infrastructure for Imaging
 [![:scale 30%](images/embrc.png)](http://www.embrc.eu) |   European Marine Biological Resource Centre
 [![:scale 30%](images/instruct.png)](https://instruct-eric.eu/) |   Integrated Structural Biology Infrastructure
 
@@ -195,7 +196,7 @@ class: center, middle
   * Funders
   * Policy makers
 
-#### Targeted to life sciences
+#### Targeted to environment & life sciences
 #### Pragmatic solutions
 
 ### Deliverables
@@ -204,7 +205,7 @@ class: center, middle
 
 ---
 
-## First linked event before summer
+## First event before summer
 
 <div style="vertical-align: middle;">
 <h3> Connecting ESFRI and the  <a href="https://www.eosc-portal.eu"> ![:scale 25%](images/eoschub.png)</a></h3>
