@@ -169,7 +169,7 @@ class: center, middle
 ![:scale 20%](images/viaa.png)
 
 ![:scale 30%](images/fairdom.png)
-![:scale 30%](images/iRODS-logo.png)
+![:scale 30%](images/iRODS-Logo.png)
 
 ![:scale 30%](images/galaxy_project_logo.png)
 ![:scale 30%](images/usegalaxy.be.png)
