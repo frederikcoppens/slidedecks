@@ -7,7 +7,7 @@ background-position: top
 background-repeat: no-repeat
 background-size: contain
 
-<div style="height:250px"></div>
+<div style="height:270px"></div>
 
 <img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
@@ -16,9 +16,15 @@ layout: true
 name: galaxy_slide
 
 background-color: #2c3143
+---
+layout: true
+name: elixir_slide
+class: center, middle
+
+background-color: #f47c20
+
 
 ---
-
 layout: true
 
 <img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
@@ -31,14 +37,14 @@ template: title_slide
 
 ### Frederik Coppens
 
-#### IEEE eScience 2019
-#### Workshops on Research Objects 2019
+#### IEEE eScience 2019 - Workshop on Research Objects 2019
 
 ---
 
 # Data in research
 
 ![:scale 100%](images/storage_actual.png)
+
 
 ---
 
@@ -50,7 +56,7 @@ template: title_slide
 
 ### Gathering metadata post-factum is hard
 
-### We need a system to enable **FAIR-by-design**
+### We need to enable **FAIR-by-design**
 
 ???
 
@@ -59,51 +65,134 @@ template: title_slide
   - not sure where
 
 ---
+template: elixir_slide
+
+  <div style="color:white; font-size:5em">
+  ARCHIVING
+  </div>
+
+---
 
 # Infrastructure in Flanders
 
-<div w3-include-html="infrastructure.html"></div>
+![:scale 100%](images/infrastructure_vision.png)
 
 ---
+# Archiving infrastructure
 
-<div w3-include-html="https://frederikcoppens.github.io/slidedecks/ELIXIR_Belgium_rocrate_20190924/infrastructure.html"></div>
+### No national/regional archiving for scientific data
+
+### VIAA: Flemish Institute for Audiovisual Archiving
+
+.center[
+![:scale 30%](images/viaa.png)
+]
 
 ---
+# Archiving infrastructure
 
-# Archiving
+### No national/regional archiving for scientific data
 
-RDM == we can do archiving
+### VIAA: Flemish Institute for Audiovisual Archiving
 
-VIAA BagIt with minimal metadata (Dublin Core)
+.center[
+![:scale 30%](images/viaa.png)
+### BagIt format + DataCite metadata
+]
 
 ---
 
 # Need for metadata
 
-Dublin Core
-DataCite
-not enough
+### BagIt seems easy enough
 
-'Scientific metadata': experiment, equipment, parameters, protocols, workflows, ...
+### DataCite for library purposes
+
+### 'Scientific metadata'
+
+.center[
+#### Experiment
+#### Equipment
+#### Protocols
+#### Workflows
+#### Parameters
+]
 
 ---
+class: middle, center
 
-# ELIXIR Deposition Databases
+![:scale 100%](images/fairsharing.png)
+
+---
+class: middle, center
+
+![:scale 45%](images/ELIXIR_DD.png)
 
 https://elixir-europe.org/platforms/data/elixir-deposition-databases
 
----
-
-# CWL
 
 ---
 
+# Registries
+
+<div style="text-align:center; vertical-align:middle; color:blue">
+
+<img src="images/biotools_logo.png" style="vertical-align:middle; width:30%"</img>
+<img src="images/biocontainers_logo.png" style="vertical-align:middle; width:30%"</img>
+<img src="images/myexperiment.png" style="vertical-align:middle; width:30%"</img>
+
+
+</div>
+
+---
+template: elixir_slide
+
+  <div style="color:white; font-size:5em">
+  ARCHIVING
+  </div>
+  <div style="color:white; font-size:3em">
+  BagIt + extra metadata
+  </div>
+
+---
+class: middle, center
+
+![:scale 50%](images/ro-crate.png)
+
+### BagIt + extra metadata
+
+---
+class: center, middle
+
+# Integration is key
+
+![:scale 20%](images/viaa.png)
+
+![:scale 30%](images/fairdom.png)
+![:scale 30%](images/iRODS-logo.png)
+
+![:scale 30%](images/galaxy_project_logo.png)
+![:scale 30%](images/usegalaxy.be.png)
+
+![:scale 25%](images/ELIXIR_logo_white_background.png)
+![:scale 30%](images/zenodo-black-2500.png)
 
 ---
 
-https://doi.org/10.5281/zenodo.3270823
+# Infrastructure in Flanders
+
+![:scale 100%](images/infrastructure_rocrate.png)
+
+---
+class: center, middle
+
+![:scale 50%](images/ELIXIR_BELGIUM_white_background.png)
+
+![:scale 30%](images/FWO_Logo_Kleur.jpg)
+![:scale 30%](images/ewi.png)
 
 ???
+
 Introduction
 Modern (molecular) biology rests on the generation, sharing and integrated analysis of digital data. By connecting the large amounts of digital life-science data, we can foster innovation that, in turn, will allow us to address major societal challenges. For this to succeed, research data and digital services need to be Findable, Accessible, Interoperable, and Reusable (FAIR), allowing both researchers and society at large to fully benefit from public investments in science. Recently, funders also require to submit a Research Data Management (RDM) plan alongside research proposals. The corresponding tasks to achieve this are non-trivial and can be demanding, particularly when undertaken by researchers in isolation and without the benefit of expert advice and tools.
 First Mile Research Data Management

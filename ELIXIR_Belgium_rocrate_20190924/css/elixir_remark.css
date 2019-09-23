@@ -1,7 +1,7 @@
 :root {
   --elixir-blue: rgb(0, 84, 114);
   --elixir-blue-dim: rgba(0, 84, 114, 0.7);
-  --elixir-orange: rgb(244, 125, 32);
+  --elixir-orange: rgb(244, 125, 32); /* #f47c20 */
   --elixir-orange-dim: rgba(244, 125, 32, 0.7);
   --elixir-grey: rgb(77, 72, 72);
   --elixir-green: rgb(190, 191, 50);
