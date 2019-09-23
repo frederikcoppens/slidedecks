@@ -62,6 +62,11 @@ template: title_slide
 
 # Infrastructure in Flanders
 
+<div w3-include-html="infrastructure.html"></div>
+
+---
+
+<div w3-include-html="https://frederikcoppens.github.io/slidedecks/ELIXIR_Belgium_rocrate_20190924/infrastructure.html"></div>
 
 ---
 
