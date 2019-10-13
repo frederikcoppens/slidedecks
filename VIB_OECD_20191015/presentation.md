@@ -169,33 +169,21 @@ template: vib_spacer_slide
 
 ---
 
-# Cloud is the future !?
+# Cloud is the future ?!
 
 ## Cloud is a disruptive concept
 
-## Applications tailored for the target audience
+* How to communicate to researchers & developers
+* How to transition current practices
+* How about commercial licenses ?
+
+## Services tailored for the target audience
 
 * IAAS: freedom for developers
 * SAAS: managed platforms for researchers
 
-## Commercial software : licensing on cloud ?
-
----
-template: vib_spacer_slide
-
-<h1 style="color:white">  Platforms as integration points </h1>
-
 ---
 
-# Managed Platforms
-
-* Reduction in flexibility, gains in FAIR
-* Underlying technologies & frameworks
-* Long-term sustainability ? What is the cost not to sustain it ?
-* Fit-for-purpose for researchers
-* Guidelines to collaborate for developers
-
----
 # The Galaxy ecosystem
 
 ![:scale 100%](images/galaxy_universe.png)
@@ -204,6 +192,22 @@ template: vib_spacer_slide
 template: vib_spacer_slide
 
 <h1 style="color:white">  Platforms as drivers for innovation </h1>
+
+---
+
+# Managed Platforms
+
+* Reduction in flexibility, gains in FAIR
+* Underlying technologies & frameworks
+* Fit-for-purpose for researchers
+* Guidelines to integrate/collaborate for developers
+
+## Long-term sustainability ? What is the cost not to sustain it ?
+
+---
+template: vib_spacer_slide
+
+<h1 style="color:white">  Platforms as entry and integration points </h1>
 
 ---
 template: vib_final_slide
