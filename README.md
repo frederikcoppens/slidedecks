@@ -3,6 +3,7 @@
 Slides by Frederik Coppens
 
 * [VIB Transcriptomics May 2017](VIB_RNAseq_20170509)
+* [OECD Software Recommendations October 2019](VIB_OECD_20191015)
 
 ## ELIXIR Belgium
 
