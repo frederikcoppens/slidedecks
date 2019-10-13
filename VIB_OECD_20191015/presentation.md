@@ -70,6 +70,12 @@ template: title_slide
 
 ## The Research Data Life Cycle
 
+## Software development in research
+
+## The push for cloud
+
+## Managed Platforms
+
 
 ---
 class: center, middle
