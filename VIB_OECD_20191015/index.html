@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OECD -  </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/vib_remark.css">
+  </head>
+  <body>
+    <script src="remark-latest.min.js">
+    </script>
+    <script>
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+      var slideshow = remark.create({
+        sourceUrl: 'presentation.md',
+        ratio: '16:9',
+        navigation: {
+          scroll: true,
+          touch: true,
+          click: false,
+        },
+        slideNumberFormat: function (current, total) {
+          return ''; // current + ' / ' + total;
+        },
+        countIncrementalSlides: false,
+      });
+    </script>
+  </body>
+</html>
