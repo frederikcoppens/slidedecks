@@ -49,6 +49,9 @@ template: title_slide
 <h4 style="color:white"> October 15, 2019 Paris </h4>
 
 </div>
+
+<div style="color:white;text-align:center;font-size:0.8em;"><a href="https://frederikcoppens.github.io/slidedecks/VIB_OECD_20191015/">https://frederikcoppens.github.io/slidedecks/VIB_OECD_20191015/</a></div>
+
 ---
 
 # Background
