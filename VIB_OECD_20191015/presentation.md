@@ -57,7 +57,7 @@ template: title_slide
 * PhD on *Arabidopsis thaliana* leaf development at VIB
 * During PhD: shift from wetlab to bioinformatics
 * Project Leader Applied Bioinformatics and Biostatistics (2013 - )
-* IT manager VIB-UGent Center Plant Systems Biology (2015 - )
+* IT manager VIB-UGent Center for Plant Systems Biology (2015 - )
 * Head of Node ELIXIR Belgium (2019), involved since 2014
 * ELIXIR Tools & Interoperability Platforms
 * Flemish policy office: member WG Open Science
@@ -74,7 +74,7 @@ template: title_slide
 
 ## The push for cloud
 
-## Managed Platforms
+## Platforms
 
 
 ---
@@ -84,9 +84,9 @@ class: center, middle
 
 ![:scale 80%](images/EC_how_it_works.jpg)
 
----
+???
 
-# A lot of questions...
+# A lot of questions from researchers...
 
 * What should be in a Data Management Plan ?
 * Gathering data ? What to gather ?
@@ -102,16 +102,17 @@ class: middle, center
 
 ![:scale 80%](images/CONVERGE_WP3_overview.png)
 
----
+???
 
 # Complex landscape for researchers
 
 * At all levels of the research cycle many options
 * Rapidly changing landscape
+* Interoperability between levels ?
 * Flexibility is good, guidance is better
-* Need for recommendations, best practices
+* Need for recommendations, best practices, examples
 
----
+???
 
 # What to use ?
 
@@ -126,7 +127,7 @@ class: middle, center
 ---
 template: vib_spacer_slide
 
-<h1 style="color:white">  Recommendations need to be rooted into implementations </h1>
+<h1 style="color:white">  Take into account current practices </h1>
 
 ---
 
@@ -152,13 +153,15 @@ template: vib_spacer_slide
 
 ## Open Source == just giving it all away ?
 
-## Sustainability ? Why ?
+## Sustainability ? I need to solve problem X, now !
 
 ---
 
 template: vib_spacer_slide
 
-<h1 style="color:white">  Formulation of recommendations tailored to the audience </h1>
+![:scale 30%](images/nudge.png)
+
+<h1 style="color:white"> in the right direction,</br> tailored to the audience </h1>
 
 ---
 class: middle, center
@@ -166,6 +169,12 @@ class: middle, center
 # EOSC-Life Tools Collaboratory
 
 ![:scale 80%](images/EOSC-Life_T2.1.png)
+
+???
+
+* Technologies are available
+* Focus on green arrows: how to get it to the users ?
+* User-driven developments needed
 
 ---
 
@@ -189,31 +198,60 @@ template: vib_spacer_slide
 * SAAS: managed platforms for researchers
 
 ---
+class: center, middle
+
+# Platforms
+
+![:scale 30%](images/galaxy_project_logo.png)
+![:scale 30%](images/knime.svg)
+![:scale 30%](images/nextflow.png)
+![:scale 30%](images/cwl.png)
+![:scale 20%](images/jupyter.png)
+![:scale 30%](images/orange-splash-screen.png)
+
+---
 
 # The Galaxy ecosystem
 
 ![:scale 100%](images/galaxy_universe.png)
 
 ---
-template: vib_spacer_slide
 
-<h1 style="color:white">  Platforms as drivers for innovation </h1>
+# Platforms
 
----
-
-# Managed Platforms
-
-* Reduction in flexibility, gains in FAIR
+* Reduction in flexibility, gains in ![:scale 20%](images/fair.png)
+* Multiplicator effect
 * Underlying technologies & frameworks
+* Domain-specific to generic
+
+## Long-term sustainability ?
+## What is the cost not to sustain it ?
+
+
+???
+
 * Fit-for-purpose for researchers
 * Guidelines to integrate/collaborate for developers
 
-## Long-term sustainability ? What is the cost not to sustain it ?
 
 ---
 template: vib_spacer_slide
 
-<h1 style="color:white">  Platforms as entry and integration points </h1>
+<h1 style="color:white">  Platforms as driver, entry and integration points </h1>
+
+
+---
+template: vib_spacer_slide
+
+<h2 style="color:white">  From current practices </h2>
+
+<h2 style="color:white">  Nudging </h2>
+
+<h2 style="color:white">  towards Workflows </h2>
+
+<h2 style="color:white">  in Platforms</h2>
+
+<h2 style="color:white"> as driver, entry and integration points </h2>
 
 ---
 template: vib_final_slide
