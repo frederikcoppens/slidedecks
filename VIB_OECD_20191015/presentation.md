@@ -68,11 +68,11 @@ template: title_slide
 
 # Outline
 
-## The Research Data Life Cycle
+## Research Data Life Cycle
 
-## Software development in research
+## Software Development in Research
 
-## The push for cloud
+## The Push for Cloud
 
 ## Platforms
 
@@ -243,13 +243,13 @@ template: vib_spacer_slide
 ---
 template: vib_spacer_slide
 
-<h2 style="color:white">  From current practices </h2>
+<h2 style="color:white"> From current practices </h2>
 
-<h2 style="color:white">  Nudging </h2>
+<h2 style="color:white"> Nudging </h2>
 
-<h2 style="color:white">  towards Workflows </h2>
+<h2 style="color:white"> towards Workflows </h2>
 
-<h2 style="color:white">  in Platforms</h2>
+<h2 style="color:white"> in Platforms</h2>
 
 <h2 style="color:white"> as driver, entry and integration points </h2>
 
