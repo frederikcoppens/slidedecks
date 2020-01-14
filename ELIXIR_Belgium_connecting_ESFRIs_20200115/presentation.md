@@ -228,18 +228,22 @@ class: center, middle
 #### Workshops for data stewards and users
 
 ---
-
-## First event before summer
+class: center
 
 <div style="vertical-align: middle;">
-<h3> Connecting ESFRI and the  <a href="https://www.eosc-portal.eu"> ![:scale 25%](images/eoschub.png)</a></h3>
+<h1> Connecting ESFRI and the  </h1>
 </div>
 
+<a href="https://www.eosc-portal.eu"> ![:scale 50%](images/eoschub.png)</a>
+
+June 5, 2019
 
 .center[
-[![:scale 30%](images/envrifair.jpg)](http://envri.eu/envri-fair/)
-[![:scale 30%](images/EOSClife.png)](http://www.eosc-life.eu)
+[![:scale 40%](images/envrifair.jpg)](http://envri.eu/envri-fair/)
+[![:scale 40%](images/EOSClife.png)](http://www.eosc-life.eu)
 ]
+
+https://www.ewi-vlaanderen.be/evenementen/connecting-esfri-and-european-open-science-cloud-eosc
 
 ---
 
