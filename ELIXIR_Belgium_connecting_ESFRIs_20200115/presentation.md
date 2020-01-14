@@ -297,6 +297,10 @@ https://training.vib.be/research-data-management-data-stewardship-much-more-fair
 
 ### Flanders Marine Institute, Ostend
 
+.center[
+[![:scale 25%](images/vliz.png)](http://www.vliz.be)
+]
+
 ---
 class: center, middle
 
