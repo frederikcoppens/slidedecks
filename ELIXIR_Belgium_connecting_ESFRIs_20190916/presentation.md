@@ -214,7 +214,7 @@ class: center, middle
 
 .center[
 [![:scale 30%](images/envrifair.jpg)](http://envri.eu/envri-fair/)
-[![:scale 30%](images/eosclife.png)](http://www.eosc-life.eu)
+[![:scale 30%](images/EOSClife.png)](http://www.eosc-life.eu)
 ]
 
 ### Follow up meetings with ESFRIs
