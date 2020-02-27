@@ -15,6 +15,7 @@ Slides by Frederik Coppens
 * [ELIXIR Belgium All Hands 2019 - Connecting ESFRIs](ELIXIR_Belgium_connecting_ESFRIs_20190916)
 * [eScience RO workshop 2019](ELIXIR_Belgium_rocrate_20190924)
 * [FWO IRI launch 2020 - Connecting ESFRIs](ELIXIR_Belgium_connecting_ESFRIs_20200115)
+* [VLIZ Advancing Data Stewardship February 2020](ELIXIR_Belgium_cloud_VLIZ_20200228)
 
 
 ## ELIXIR
