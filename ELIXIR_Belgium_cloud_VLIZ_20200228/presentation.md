@@ -199,7 +199,7 @@ template: title_slide
 
 ---
 
-![:scale 100%](images/eosc_UvdL.png)
+![:scale 100%](images/EOSC_UvdL.png)
 
 #### "trusted space for researchers to store their **data** and *access* **data** from other disciplines."
 
