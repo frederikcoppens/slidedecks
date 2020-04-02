@@ -1,27 +1,16 @@
 name: title_slide
 layout: true
-class: right, middle
+class: center
 
-background-image: url("images/ELIXIR_background.png")
-background-position: top
-background-repeat: no-repeat
-background-size: contain
+<img src="images/EOSClife.png" height="60%" />
 
-<div style="height:250px"></div>
-
-<img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
-
----
-layout: true
-name: galaxy_slide
-
-background-color: #2c3143
+<img src="images/EOSClife.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
 ---
 
 layout: true
 
-<img src="images/ELIXIR_logo_white_background.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
+<img src="images/EOSClife.png" height="8%" style="position:absolute;left:2%;bottom:2%;" />
 
 ---
 template: title_slide

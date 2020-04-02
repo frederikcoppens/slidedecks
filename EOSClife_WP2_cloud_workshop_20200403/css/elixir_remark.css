@@ -10,6 +10,8 @@
   --galaxy-lightblue: rgb(64,80,128); /* #405080 */
   --galaxy-yellow: rgb(256,190,6);
   --galaxy-white: rgb(245,245,245);
+  --eosc-life-yellow: rgb(249,178,51);
+  --eosc-life-green: rgb(31,135,135);
 }
 
 body {
@@ -21,11 +23,11 @@ h1, h2, h3, h4 {
   font-family: "Corbel", Helvetica, sans-serif;
   text-transform: none;
   font-weight: normal;
-  color: var(--elixir-blue);
+  color: var(--eosc-life-green);
 }
 
 h3 {
-  color: var(--elixir-orange);
+  color: var(--eosc-life-yellow);
   #font-style: italic;
 }
 
@@ -50,7 +52,7 @@ ul {
 
 li::before {
   #content: "•";
-  #color: var(--elixir-orange);
+  #color: var(--eosc-life-yellow);
   #padding-right: 1em;
 }
 
@@ -70,14 +72,14 @@ tr, th {
 }
 
 .highlight {
-  color: var(--elixir-orange);
+  color: var(--eosc-life-yellow);
 }
 
 .quote {
   font-family: "Corbel", Helvetica, sans-serif;
   text-transform: none;
   font-weight: large;
-  color: var(--elixir-orange);
+  color: var(--eosc-life-yellow);
   font-style: italic;
   align: justify;
   padding: 20px;
