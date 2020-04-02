@@ -216,10 +216,15 @@ class: center
 
 # Workflow Management Systems
 
-![:scale 50%](images/GalaxyNewLogo_GalaxyProject_Trans.png)
-![:scale 50%](images/nextflow.png)
-![:scale 50%](images/snakemake-logo-trans.png)
+![:scale 30%](images/GalaxyNewLogo_GalaxyProject_Trans.png)
+![:scale 40%](images/nextflow.png)
+![:scale 20%](images/snakemake-logo-trans.png)
 
+---
+
+# EOSC-Life Tools & Workflows Roadmap
+
+![:scale 100%](images/EOSC-life_roadmap_202004.png)
 
 ---
 template: title_slide
