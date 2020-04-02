@@ -22,11 +22,6 @@ template: title_slide
 #### Workshop on Workflow Platforms, April 2-3 2020
 
 ---
-class: center, middle
-
-![:scale 75%](images/eosclogo.png)
-
----
 
 ![:scale 100%](images/EOSC_UvdL.png)
 
@@ -83,6 +78,12 @@ class: center, middle
 
 ---
 
+template: title_slide
+
+# Cloud ?
+
+---
+
 # Embracing cloud
 
 ### Cloud == a computer provided by someone else
@@ -116,9 +117,111 @@ class: center
 ![:scale 70%](images/scheduling_diagram-candidate_final.jpg)
 ]
 
+---
+
+# EOSC-Life Tools & Workflows Roadmap
+
+![:scale 100%](images/EOSC-life_roadmap_202004.png)
 
 ---
-class: center, middle
 
-![:scale 45%](images/FWO_Logo_Kleur.jpg)
-![:scale 45%](images/ewi.png)
+template: title_slide
+
+# From tools to containers
+
+---
+
+# Tool deployment
+
+![:scale 100%](images/packaging.png)
+
+---
+
+.center[![:scale 50%](images/conda_logo.svg)]
+
+
+#### Open Source package manager
+
+#### Independent of any programming language and OS
+
+#### Fast, robust and easy package installation
+
+#### No root privileges needed
+
+#### Installation and management of multiple versions
+
+#### Management of multiple version
+
+#### HPC and Cloud compatible
+
+#### Easy to maintain
+
+.center[![:scale 50%](images/bioconda.png)]
+
+
+---
+
+# From Conda to Containers
+
+### Automated through Continuous Integration
+
+![:scale 60%](images/mulled.png)
+
+### Open Container Initiative
+
+![:scale 30%](images/docker.png)
+![:scale 10%](images/singularity.svg)
+![:scale 30%](images/rkt-horizontal-color.png)
+
+---
+
+template: title_slide
+
+# Registries
+
+---
+
+# bio.tools : Tools & Services
+
+![:scale 100%](images/biotools.png)
+
+---
+
+# Biocontainers.pro : Containers
+
+![:scale 100%](images/BioContainers.png)
+
+---
+
+# WorkflowHub.eu : Workflows
+
+![:scale 100%](images/workflowhub.png)
+
+---
+
+# A network of registries
+
+### the ELIXIR Tools Platform ecosystem
+
+![:scale 100%](images/tools_ecosystem.png)
+
+---
+
+template: title_slide
+
+# Workflow Management Systems
+
+---
+class: center
+
+# Workflow Management Systems
+
+![:scale 50%](images/GalaxyNewLogo_GalaxyProject_Trans.png)
+![:scale 50%](images/nextflow.png)
+![:scale 50%](images/snakemake-logo-trans.png)
+
+
+---
+template: title_slide
+
+# Questions ?
