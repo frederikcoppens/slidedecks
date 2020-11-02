@@ -189,7 +189,7 @@ docker run -p "8080:80" -v <absolute path>/.secret:/.secret -e WEBIN_ID="Webin-*
 ![:scale 35%](images/covid_galaxy.png)
 
 ![:scale 20%](images/usegalaxy.be.png)
-![:scale 20%](images/usegalaxy.eu.1024.png)
+![:scale 20%](images/useGalaxy.eu.1024.png)
 ]
 
 ---
