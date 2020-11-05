@@ -423,6 +423,19 @@ class: center
 <img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
 
 ---
+class: center
+
+# Submitting viral COVID data
+
+![:scale 80%](images/ENA_upload.png)
+
+<img src="images/people/igegu.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
+<img src="images/people/bedro.jpg" height="15%" style="position:absolute;left:85%;bottom:60%;" />
+<img src="images/people/miron.jpg" height="15%" style="position:absolute;left:85%;bottom:40%;" />
+
+<img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
+
+---
 
 class: middle, center
 
