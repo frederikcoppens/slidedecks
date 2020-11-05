@@ -1,0 +1,146 @@
+:root {
+  --galaxy-darkblue: rgb(44,49,67); /* #2c3143 */
+  --galaxy-grey: rgb(88,88,88);
+  --galaxy-lightblue: rgb(64,80,128); /* #405080 */
+  --galaxy-yellow: rgb(256,190,6);
+  --galaxy-white: rgb(245,245,245);
+
+  --vib-green: rgb(58, 187, 186);
+  --vib-orange: rgb(255, 104, 30);
+  --vib-purple: rgb(90, 42, 130);
+  --vib-dark: rgb(27,41,68); /* #1b2944 */
+
+  /*
+  $navbar-inverse-bg: rgb(44, 49, 67);
+  background-color: #f5f5f5; white smoke
+  color: #2882dc; light blue
+  background-color: #405080; palish blue
+  background-color: #dfe5f9;
+  background-color: #efeff9;
+  color: #273040; dark
+  gray
+  $galaxy-bs3-primary: #25537b; blue
+  $galaxy-bs3-success: #3a873a; green
+  $galaxy-bs3-warning: #ae7628; oker
+  $galaxy-bs3-danger: #c8524f; pink
+  $galaxy-bs3-info: #3189a3;
+  $complement-color-3: spin($base-color-3, 180);
+
+  */
+}
+
+html, body {
+  /* for page wide banner */
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Corbel", Helvetica, sans-serif;
+  color: var(--galaxy-gray);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  color: var(--vib-dark);
+  text-align: center;
+}
+
+h1 {
+  color: var(--vib-dark);
+}
+
+h2 {
+  color: var(--vib-purple);
+}
+
+.title h1 {
+  color: var(--galaxy-white);
+}
+
+h3 {
+  color: var(--galaxy-darkblue);
+  #font-style: italic;
+}
+
+li {
+  line-height: 150%;
+  padding-left: 30px;
+  text-indent: -.7em;
+  margin-left: 5%;
+}
+
+ul li ul {
+  font-size: 100%;
+}
+
+ul {
+  padding: 0;
+  #list-style-type: none ;
+  margin: 0;
+  font-size: 150%;
+}
+
+
+li::before {
+  #content: "•";
+  #color: var(--galaxy-lightblue);
+  #padding-right: 1em;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+}
+
+tr, th {
+  text-align: left;
+}
+
+#tr:nth-child(even) {background-color: #f2f2f2}
+
+.italic {
+  font-style: italic;
+}
+
+.highlight {
+  color: var(--galaxy-yellow);
+  font-size: inherit;
+}
+
+.quote {
+  font-family: "Corbel", Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: large;
+  color: var(--galaxy-yellow);
+  font-style: italic;
+  align: justify;
+  padding: 20px;
+}
+
+/* for page wide banner */
+.banner {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  background: MidnightBlue;
+  text-align: center;
+  color: var(--galaxy-white);
+}
+
+.banner h1, .banner h2, .banner h3 {
+  color: var(--galaxy-white);
+}
+
+.remark-code, .remark-inline-code {
+  font-family: Courier, serif;
+}
+
+/* links */
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+    decoration: none;
+}
