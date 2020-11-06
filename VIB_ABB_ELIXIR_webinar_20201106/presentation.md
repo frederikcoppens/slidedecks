@@ -291,23 +291,30 @@ template: vib_spacer_slide
 <h1 style="color:white">  Processing & analysing data </h1>
 
 ---
+class: center
 
 # Galaxy
 
-![:scale 80%](images/galaxy_psb.png)
+![:scale 70%](images/galaxy_psb.png)
 
 <img src="images/people/igegu.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 
+https://galaxy.psb.ugent.be
+
 ---
+class: center
 
 # Galaxy @ VSC
 
-![:scale 80%](images/galaxybe.png)
+![:scale 70%](images/galaxybe.png)
 
 <img src="images/people/igegu.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 <img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
 
+https://usegalaxy.be
+
 ---
+class: center
 
 # Galaxy @ VSC
 
@@ -320,6 +327,22 @@ In collaboration with Melanie Föll (University of Freiburg)
 <img src="images/people/melanie.png" height="15%" style="position:absolute;left:75%;bottom:80%;" />
 <img src="images/people/igegu.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 <img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
+
+---
+
+class: center
+
+# Bioinformatics analyses
+
+## From 'common' analyses
+
+blast, phylogenetic trees, renaming files, ...
+
+## to custom pipelines
+
+## and supporting large projects
+
+<img src="images/people/liste.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 
 ---
 
@@ -343,21 +366,6 @@ In collaboration with Melanie Föll (University of Freiburg)
 
 <img src="images/people/vesto.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 
----
-
-class: center
-
-# Bioinformatics analyses
-
-## From 'common' analyses
-
-blast, phylogenetic trees, renaming files, ...
-
-## to custom pipelines
-
-## and supporting large projects
-
-<img src="images/people/liste.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 
 ---
 class: center
@@ -484,10 +492,11 @@ template: vib_spacer_slide
 
 # Training courses
 
-## Galaxy workflows
-## RNAseq processing
-## PLAZA introductions
-## Working with linux command line
+## Basic statistics course in R
+## Differential expression analysis with edgeR
+## In preparation: differential expression of qPCR data
+
+### Online courses available on UFORA (UGent)
 
 ### Reach out for other topics
 
@@ -495,11 +504,10 @@ template: vib_spacer_slide
 
 # Training courses
 
-## Basic statistics course in R
-## Differential expression analysis with edgeR
-## In preparation: differential expression of qPCR data
-
-### Online courses available on UFORA (UGent)
+## Galaxy workflows
+## RNAseq processing
+## PLAZA introductions
+## Working with linux command line
 
 ### Reach out for other topics
 
@@ -514,10 +522,10 @@ template: vib_spacer_slide
 
 ## Biostatistics
 
-* Book a slot: intranet - booking - Support
+* Book a slot: Intranet - PSB Planner - Support
   - Monday 13:30-18:00
   - Thursday 8:00-12:00
-* Statistical consulting form : intranet - applications
+* Statistical consulting form : Intranet - Applications
 
 * Email stathelp@psb.ugent.be
 
