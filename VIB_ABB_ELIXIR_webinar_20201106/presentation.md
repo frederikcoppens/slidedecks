@@ -135,6 +135,7 @@ template: vib_spacer_slide
 ![:scale 13%](images/people/raabb.jpg)
 ![:scale 13%](images/people/vakia.jpg)
 ![:scale 13%](images/people/tidie.jpg)
+![:scale 13%](images/people/frsil.jpg)
 
 ![:scale 13%](images/people/frcop.jpg)
 ![:scale 13%](images/people/liste.jpg)
@@ -252,27 +253,34 @@ template: vib_spacer_slide
 
 ---
 
-# Phenotyping analysis
-
-![:scale 100%](images/wiwam_pippa2.png)
-
-<img src="images/people/vesto.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
-
----
-
-## Phenotyping metadata
+# Phenotyping metadata
 
 ![:scale 70%](images/elixir-plant.png)
 
+<img src="images/people/raabb.jpg" height="15%" style="position:absolute;left:85%;bottom:60%;" />
+<img src="images/people/bedro.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
+<img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
+
+---
+class: center
+
+# Phenotyping metadata search
+
+![:scale 60%](images/faidare.png)
+
+https://urgi.versailles.inrae.fr/faidare/
+
+<img src="images/people/raabb.jpg" height="15%" style="position:absolute;left:85%;bottom:60%;" />
 <img src="images/people/bedro.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 <img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
 
 ---
 
-## Phenotyping metadata search
+# Phenotyping metadata search
 
 ![:scale 80%](images/BioSchemas_applepie.png)
 
+<img src="images/people/raabb.jpg" height="15%" style="position:absolute;left:85%;bottom:60%;" />
 <img src="images/people/bedro.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 <img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
 
@@ -328,6 +336,15 @@ In collaboration with Melanie Föll (University of Freiburg)
 <img src="images/people/vesto.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 
 ---
+
+# Phenotyping analysis
+
+![:scale 100%](images/wiwam_pippa2.png)
+
+<img src="images/people/vesto.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
+
+---
+
 class: center
 
 # Bioinformatics analyses
@@ -373,6 +390,7 @@ class: center
 
 ![:scale 80%](images/plaza.png)
 
+<img src="images/people/frsil.jpg" height="15%" style="position:absolute;left:85%;bottom:60%;" />
 <img src="images/people/mibel.jpg" height="15%" style="position:absolute;left:85%;bottom:80%;" />
 <img src="images/ELIXIR_BELGIUM_white_background.png" height="15%" style="position:absolute;left:85%;bottom:2%;" />
 
@@ -538,17 +556,20 @@ template: vib_spacer_slide
 
 ## ELIXIR team & community
 
-![:scale 8%](images/people/kiruy.jpg)
-![:scale 8%](images/people/fldan.jpg)
-![:scale 8%](images/people/miron.jpg)
-![:scale 8%](images/people/igegu.jpg)
-![:scale 8%](images/people/bedro.jpg)
-![:scale 8%](images/people/raabb.jpg)
-![:scale 8%](images/people/vakia.jpg)
-![:scale 8%](images/people/tidie.jpg)
-![:scale 8%](images/people/liste.jpg)
-![:scale 8%](images/people/mibel.jpg)
-![:scale 8%](images/people/raand.jpg)
+.center[
+![:scale 7%](images/people/kiruy.jpg)
+![:scale 7%](images/people/fldan.jpg)
+![:scale 7%](images/people/miron.jpg)
+![:scale 7%](images/people/igegu.jpg)
+![:scale 7%](images/people/bedro.jpg)
+![:scale 7%](images/people/raabb.jpg)
+![:scale 7%](images/people/vakia.jpg)
+![:scale 7%](images/people/tidie.jpg)
+![:scale 7%](images/people/frsil.jpg)
+![:scale 7%](images/people/liste.jpg)
+![:scale 7%](images/people/mibel.jpg)
+![:scale 7%](images/people/raand.jpg)
+]
 
 ## Galaxy community
 
